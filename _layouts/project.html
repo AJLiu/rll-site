@@ -8,9 +8,12 @@ title: Project Template
         {% include nav.html %}
         {% include header.html %}
 
-        <h1>{{page.name}}</h1>
+        <div class="content">
+            <h1>{{page.name}}</h1>
 
-        This should be a project page
+            This should be a Project page.
+            {{content}}
+        </div>
 
         {% include footer.html %}
 

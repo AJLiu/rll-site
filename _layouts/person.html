@@ -8,9 +8,12 @@ title: Person Template
         {% include nav.html %}
         {% include header.html %}
 
-        <h1>{{page.name}}</h1>
+        <div class="content">
+            <h1>{{page.name}}</h1>
 
-        This should be a person's page
+            This should be a Person's page.
+            {{content}}
+        </div>
 
         {% include footer.html %}
 

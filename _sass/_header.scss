@@ -1,3 +1,11 @@
 .header {
-    
+    background-color: $color-background;
+    height: $header-height;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+
+    img {
+        height: $header-height;
+    }
 }
