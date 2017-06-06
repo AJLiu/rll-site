@@ -1,0 +1,15 @@
+---
+title: Projects - Robot Learning Lab
+layout: default
+permalink: /projects/index.html
+---
+
+<p>Show all the projects</p>
+
+<ul>
+    {% for project in site.projects %}
+    <li>
+        <a href="{{project.url}}">{{project.name}}</a>
+    </li>
+    {% endfor %}
+</ul>

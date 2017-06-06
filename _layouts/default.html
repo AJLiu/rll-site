@@ -1,5 +1,5 @@
 ---
-title: Paper Template
+title: Page Template
 ---
 <html>
     {% include head.html%}
@@ -8,9 +8,10 @@ title: Paper Template
         {% include nav.html %}
         {% include header.html %}
 
-        <h1>{{page.name}}</h1>
+        <h1>{{site.title}}</h1>
 
-        This should be a Paper page
+        This should be a page.
+        {{content}}
 
         {% include footer.html %}
 
@@ -18,5 +19,4 @@ title: Paper Template
             {% include tracking.html %}
         {% endif %}
     </body>
-
 </html>

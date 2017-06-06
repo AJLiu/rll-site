@@ -1,0 +1,9 @@
+<div class="nav">
+    <ul>
+        {% for link in site.data.nav %}
+        <li>
+            <a href="{{link.url | absolute_path}}">{{link.title}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

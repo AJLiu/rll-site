@@ -1,0 +1,13 @@
+$color-gray: #6b717f;
+$color-white: #fff;
+$color-navy: #036;
+$color-gold: #C6A953;
+
+$color-text-dark: darken($color-gray, 15);
+$color-text-light: rgba(255,255,255,.85);
+
+$color-background: $color-white;
+$color-background-dark: darken($color-gray, 30);
+
+$color-primary: $color-navy;
+$color-secondary: lighten($color-gold, 15);

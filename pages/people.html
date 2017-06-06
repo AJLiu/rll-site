@@ -1,0 +1,15 @@
+---
+title: People - Robot Learning Lab
+layout: default
+permalink: /people/index.html
+---
+
+<p>Show all the people</p>
+
+<ul>
+    {% for person in site.people %}
+    <li>
+        <a href="{{person.url}}">{{person.name}}</a>
+    </li>
+    {% endfor %}
+</ul>

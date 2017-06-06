@@ -1,0 +1,22 @@
+---
+title: Person Template
+---
+<html>
+    {% include head.html%}
+
+    <body>
+        {% include nav.html %}
+        {% include header.html %}
+
+        <h1>{{page.name}}</h1>
+
+        This should be a person's page
+
+        {% include footer.html %}
+
+        {% if jekyll.environment == "production" %}
+            {% include tracking.html %}
+        {% endif %}
+    </body>
+
+</html>

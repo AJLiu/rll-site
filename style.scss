@@ -1,0 +1,17 @@
+---
+---
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+@import "viewport";
+@import "typography";
+@import "colors";
+@import "header";
+@import "nav";
+@import "footer";
+@import "people";
+@import "papers";
+@import "home";

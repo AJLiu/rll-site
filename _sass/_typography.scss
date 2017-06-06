@@ -1,0 +1,24 @@
+@mixin set-font($amount) {
+    @if $amount == light {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    } @else if $amount == heavy {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+    } @else {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+}
+
+body {
+    @include set-font(light);
+}
+
+a,b {
+    @include set-font(medium);
+}
+
+h1,h2,h3 {
+    @include set-font(heavy);
+}

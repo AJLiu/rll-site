@@ -1,0 +1,15 @@
+---
+title: Publications - Robot Learning Lab
+layout: default
+permalink: /publications/index.html
+---
+
+<p>Show all the papers</p>
+
+<ul>
+    {% for paper in site.publications %}
+    <li>
+        <a href="{{paper.url}}">{{paper.name}}</a>
+    </li>
+    {% endfor %}
+</ul>
