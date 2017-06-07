@@ -1,3 +1,44 @@
-.people {
+.person {
+    width: 40%;
+    .picture {
+        float:left;
+        width: 25%;
+    }
+    .bio {
+        float: right;
+        width: 75%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    p {
+        margin: 0;
+    }
     
+    img {
+        width: 100%;
+    }
+    h2 {
+        font-size: 1.2em;
+        margin: .2em 0;
+    }
+    .social {
+        padding-left: 10px;
+        margin: 0;
+        a {
+            font-size: .9em;
+            text-decoration: none;
+            color: $color-text-link;
+            transition: .8s;
+            &:hover {
+                color: darken($color-text-link, 15);
+            }
+        }
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.people {
+       
 }

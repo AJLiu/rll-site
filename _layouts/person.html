@@ -1,25 +1,49 @@
+--- 
+title: Person Template 
 ---
-title: Person Template
----
+
 <html>
-    {% include head.html%}
+{% include head.html%}
 
-    <body>
-        {% include nav.html %}
-        {% include header.html %}
+<body>
+    {% include nav.html %} 
+    {% include header.html %}
+    <div class="content person">
 
-        <div class="content">
-            <h1>{{page.name}}</h1>
+        <div class="picture">
+            {% if page.picture != nil %}
+            <img src="{{page.picture}}" alt="{{page.name}}">
+            {% else %}
+            <img src="/assets/people/placeholder.png" alt="{{page.name}}">
+            {% endif %}
+            <h2>{{page.name}}</h2>
+            {% if page.github != nil and page.personal_site != nil %}
+            <ul class="social">
+                {% if page.github != nil %}
+                <li><a href="{{page.github}}"><i class="fa fa-github-alt" aria-hidden="true"></i> Github</a></li>
+                {% endif %}
+                {% if page.personal_site != nil %}
+                <li><a href="{{page.personal_site}}"><i class="fa fa-globe" aria-hidden="true"></i> Website</a></li>
+                {% endif %}
+                {% if page.email != nil %}
+                <li><a href="mailto:{{page.email}}"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+                {% endif %}
+            </ul>
+            {% endif %}
+        </div>
+        <div class="bio">
 
-            This should be a Person's page.
-            {{content}}
+            {% if page.bio != nil %}
+            <p>{{page.bio}}</p>
+            {% endif %}
         </div>
 
-        {% include footer.html %}
+    </div>
 
-        {% if jekyll.environment == "production" %}
-            {% include tracking.html %}
-        {% endif %}
-    </body>
+    {% include footer.html %} 
+    {% if jekyll.environment == "production" %} 
+        {% include tracking.html %} 
+    {% endif %}
+</body>
 
 </html>
