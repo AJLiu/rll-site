@@ -10,9 +10,17 @@ title: Project Template
 
         <div class="content">
             <h1>{{page.name}}</h1>
-
-            This should be a Project page.
-            {{content}}
+            {% if page.members %}
+            <h6>Lab members on project: {{page.members}}</h6>
+            {% endif %}
+            <!--<span>
+                {% if page.video %}
+                <iframe width="20%" height="20%" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>
+                {% endif %}
+            </span> -->
+            {% if page.summary %}
+            <p style="text-align: center">{{page.summary}}</p> 
+            {% endif %}
         </div>
 
         {% include footer.html %}
