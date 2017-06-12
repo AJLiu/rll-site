@@ -32,11 +32,34 @@ title: Person Template
             {% endif %}
         </div>
         <div class="bio">
-
             {% if page.bio != nil %}
             <p>{{page.bio}}</p>
             {% endif %}
         </div>
+        {% if page.projects != nil %}
+        <div class="projects">
+            <h3>Projects</h3>
+            <ul>
+                {% for project in page.projects %}
+                <li>
+                    <a href="{{project.url}}">{{project.name}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        {% if page.publications != nil %}
+        <div class="publications">
+            <h3>Papers</h3>
+            <ul>
+                {% for paper in page.publications %}
+                <li>
+                    <a href="{{paper.url}}">{{paper.name}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
 
     </div>
 

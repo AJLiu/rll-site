@@ -9,6 +9,7 @@
         width: 75%;
         padding: 0 20px;
         box-sizing: border-box;
+        margin-bottom: 20px;
     }
     p {
         margin: 0;
@@ -24,6 +25,7 @@
     .social {
         padding-left: 10px;
         margin: 0;
+        height: 100%;
         a {
             font-size: .9em;
             text-decoration: none;
@@ -35,6 +37,33 @@
         }
         li {
             list-style: none;
+        }
+    }
+
+    
+    @include tablet {
+        width: 60%;
+    }
+    @include phone {
+        width: 80%;
+        .picture, .bio, .projects, .publications {
+            float: none;
+            margin: 0 auto;
+        }
+
+        .social {
+            height: auto;
+        }
+
+        .picture {
+            width: 50%;
+            h2 {
+                text-align: center;
+            }
+        }
+
+        .projects, .publications {
+            padding: 0 20px;
         }
     }
 }

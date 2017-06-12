@@ -7,4 +7,12 @@ github: https://github.com/AJLiu
 personal_site: http://anthonyliu.com 
 email: ajliu@gatech.edu
 layout: person
+publications:
+    - name: Deeply AggreVaTeD
+      url: /publications/deeplyaggrevated
+    - name: Simultaneous Trajectory Estimation and Planning via Probabilistic Inference.
+      url: /publications/trajectory
+projects:
+    - name: Car Project
+      url: /projects/car
 ---
