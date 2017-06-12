@@ -15,4 +15,5 @@ publications:
 projects:
     - name: Car Project
       url: /projects/car
+type: Undergraduate
 ---

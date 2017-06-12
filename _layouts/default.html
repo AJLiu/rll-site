@@ -9,13 +9,11 @@ title: Page Template
         {% include header.html %}
 
         <div class="content">
-            <h1>{{site.title}}</h1>
-
-            This should be a page.
+            <h1>{{page.title}}</h1>
             {{content}}
         </div>
 
-        {% include footer.html %}
+        <!--{% include footer.html %}-->
 
         {% if jekyll.environment == "production" %}
             {% include tracking.html %}
