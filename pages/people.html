@@ -3,13 +3,21 @@ title: People - Robot Learning Lab
 layout: default
 permalink: /people/index.html
 ---
-
-<p>Show all the people</p>
-
-<ul>
-    {% for person in site.people %}
-    <li>
-        <a href="{{person.url}}">{{person.name}}</a>
-    </li>
-    {% endfor %}
-</ul>
+<div class='people'>
+    <p>The Robot Learning Lab is home to a diverse and passionate community of undergraduate students, graduate students, and professors.</p>
+    <ul>
+        {% for person in site.people %}
+        <li>
+            <a href="{{person.url}}">
+                {% if person.picture != nil %}
+                <img src="{{person.picture}}" alt="{{person.name}}">
+                {% else %}
+                <img src="/assets/people/placeholder.png" alt="{{person.name}}">
+                {% endif %}
+            <h2>{{person.name}}</h2>
+            <p>{{person.type}}</p>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
