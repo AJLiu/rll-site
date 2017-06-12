@@ -14,7 +14,9 @@ body {
 
 .content {
     width: 80%;
+    min-height: 100%;
     margin: 0 auto;
+    margin-bottom: $footer-height;
 }
 
 @import "typography";

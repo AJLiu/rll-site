@@ -6,7 +6,8 @@
     height: $footer-height;
     display: flex;
     flex-direction: column-reverse;
-    position: absolute;
+    position: fixed;
+    margin-top: -50px;
     bottom: 0;
     width: 100vw;
 }
