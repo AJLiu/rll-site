@@ -4,12 +4,26 @@ layout: default
 permalink: /publications/index.html
 ---
 
-<p>Show all the papers</p>
-
-<ul>
-    {% for paper in site.publications %}
-    <li>
-        <a href="{{paper.url}}">{{paper.name}}</a>
-    </li>
+<div class="papers">
+    {% for year in site.data.papers reversed %}
+    <h2>{{year[0]}}</h2>
+    <ul class='paperlist'>
+        {% for paper in year[1] %}
+        <li class='paper'>
+            <p>{{paper.authors}}</p>
+            <h3>{{paper.title}}</h3>
+            <p>{{paper.in}}</p>
+            <ul class="links">
+                <li><a href="{{paper.bibtex}}">bibtex</a></li>
+                <li>|</li>
+                {% for href in paper.links %}
+                <li>
+                    <a href="{{href.url}}">{{href.name}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
     {% endfor %}
-</ul>
+</div>

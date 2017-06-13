@@ -22,3 +22,8 @@ a,b {
 h1,h2,h3 {
     @include set-font(heavy);
 }
+
+a, a:link, a:visited {
+    color: $color-gold;
+    text-decoration: none;
+}
