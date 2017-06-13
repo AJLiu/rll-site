@@ -15,11 +15,18 @@ body {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
-    margin-bottom: $footer-height + 100;
+    margin-bottom: $footer-height;
 }
 
-@import "typography";
+.clearfix::after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
 @import "colors";
+@import "typography";
 @import "header";
 @import "nav";
 @import "footer";
