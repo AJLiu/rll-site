@@ -13,11 +13,20 @@ title: Project Template
             {% if page.members %}
             <h6>Lab members on project: {{page.members}}</h6>
             {% endif %}
-            <!--<span>
-                {% if page.video %}
-                <iframe width="20%" height="20%" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>
-                {% endif %}
-            </span> -->
+            <table style="width:100%">
+                <tr>
+                    {% if page.video %}
+                    <td style="text-align: center;"> 
+                        <iframe width="560" height="315" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>   
+                    </td>
+                    {% endif %}
+                    {% if page.picture %}
+                    <td style="text-align: center;"> 
+                        <img src="{{page.picture}}"/>  
+                    </td>
+                    {% endif %}
+                </tr>
+            </table>
             {% if page.summary %}
             <p style="text-align: center">{{page.summary}}</p> 
             {% endif %}
