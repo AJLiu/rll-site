@@ -1,0 +1,30 @@
+.projects {    
+    ul {
+        padding: 0;
+        display: flex;
+    }
+    li {
+        list-style: none;
+        text-align: center;
+        
+        p {
+            margin-top: 0;
+        }
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    h2 {
+        margin: 5px;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:visited {
+        color: $color-text-dark;
+    }
+    p {
+        text-align: center;
+    }
+}

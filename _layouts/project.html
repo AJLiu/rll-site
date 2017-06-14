@@ -1,34 +1,28 @@
 ---
 title: Project Template
+layout: default
+permalink: /project/index.html
 ---
+
 <html>
     {% include head.html%}
 
     <body>
-        {% include nav.html %}
-        {% include header.html %}
-
-        <div class="content">
+        <div class="content projects">
             <h1>{{page.name}}</h1>
             {% if page.members %}
             <h6>Lab members on project: {{page.members}}</h6>
             {% endif %}
-            <table style="width:100%">
-                <tr>
-                    {% if page.video %}
-                    <td style="text-align: center;"> 
-                        <iframe width="560" height="315" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>   
-                    </td>
-                    {% endif %}
-                    {% if page.picture %}
-                    <td style="text-align: center;"> 
-                        <img src="{{page.picture}}" width="560" height="315"/>  
-                    </td>
-                    {% endif %}
-                </tr>
-            </table>
+            <ul>
+                <li>
+                    <img src="{{page.picture}}" width="560" height="315"/>  
+                </li>
+                <li>
+                    <iframe width="200" height="200" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>   
+                </li>
+            </ul>
             {% if page.summary %}
-            <p style="text-align: center">{{page.summary}}</p> 
+            <p>{{page.summary}}</p> 
             {% endif %}
         </div>
 
