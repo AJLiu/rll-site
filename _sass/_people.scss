@@ -96,10 +96,8 @@
     h2 {
         margin: 5px;
     }
-    a {
+    a, a:link, a:visited{
         text-decoration: none;
-    }
-    a:visited {
         color: $color-text-dark;
     }
 }
