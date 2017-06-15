@@ -4,12 +4,11 @@
         float:left;
         width: 25%;
     }
-    .bio {
+    .bio, .papers, .projects {
         float: right;
         width: 75%;
         padding: 0 20px;
         box-sizing: border-box;
-        margin-bottom: 20px;
     }
     p {
         margin: 0;
@@ -17,15 +16,19 @@
     
     img {
         width: 100%;
+        object-fit: cover;
     }
     h2 {
         font-size: 1.2em;
         margin: .2em 0;
     }
+    .papers h3 {
+        margin: 10px 0;
+    }
+    
     .social {
         padding-left: 10px;
         margin: 0;
-        height: 100%;
         a {
             font-size: .9em;
             text-decoration: none;
@@ -35,24 +38,27 @@
                 color: darken($color-text-link, 15);
             }
         }
-        li {
-            list-style: none;
-        }
     }
-
+    li {
+        list-style: none;
+    }
+    ul {
+        padding-left: 0;
+    }
     
     @include tablet {
         width: 60%;
     }
     @include phone {
         width: 80%;
-        .picture, .bio, .projects, .publications {
+        .picture, .bio, .projects, .papers {
             float: none;
             margin: 0 auto;
         }
 
         .social {
             height: auto;
+            text-align: center;
         }
 
         .picture {
@@ -62,7 +68,7 @@
             }
         }
 
-        .projects, .publications {
+        .projects {
             padding: 0 20px;
         }
     }
@@ -84,14 +90,14 @@
     img {
         width: 200px;
         height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
     }
     h2 {
         margin: 5px;
     }
-    a {
+    a, a:link, a:visited{
         text-decoration: none;
-    }
-    a:visited, a:link {
         color: $color-text-dark;
     }
 }

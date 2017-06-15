@@ -40,11 +40,6 @@ defaults:
       type: "projects"
     values:
       layout: "project"
-  - scope:
-      path: "publications"
-      type: "publications"
-    values:
-      layout: "paper"
 
 # Build settings
 markdown: kramdown
@@ -54,9 +49,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 collections:
-  publications:
-    output: true
-    permalink: /publications/:name/index.html
   projects:
     output: true
     permalink: /projects/:name/index.html

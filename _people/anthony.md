@@ -16,4 +16,7 @@ projects:
     - name: Car Project
       url: /projects/car
 type: Undergraduate
+papers:
+    - test2
+    - test1
 ---

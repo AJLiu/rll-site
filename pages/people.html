@@ -8,7 +8,7 @@ permalink: /people/index.html
     <ul>
         {% for person in site.people %}
         <li>
-            <a href="{{person.url}}">
+            <a href="{{person.url | replace: '/index.html', ''}}">
                 {% if person.picture != nil %}
                 <img src="{{person.picture}}" alt="{{person.name}}">
                 {% else %}

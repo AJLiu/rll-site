@@ -8,7 +8,7 @@ title: Person Template
 <body>
     {% include nav.html %} 
     {% include header.html %}
-    <div class="content person">
+    <div class="content person clearfix">
         <h1>About</h1>
         <div class="picture">
             {% if page.picture != nil %}
@@ -36,6 +36,33 @@ title: Person Template
             <p>{{page.bio}}</p>
             {% endif %}
         </div>
+        {% if page.papers != nil %}
+        <div class="papers">
+            <h3>Papers</h3>
+            <ul class='paperlist'>
+            {% for year in site.data.papers reversed %}
+            {% for paper in year[1] %}
+            {% if page.papers contains paper.ref %}
+            <li class='paper'>
+                <p>{{paper.authors}}</p>
+                <h3>{{paper.title}} | {{year[0]}}</h3>
+                <p>{{paper.in}}</p>
+                <ul class="links">
+                    <li><a href="{{paper.bibtex}}">bibtex</a></li>
+                    <li>|</li>
+                    {% for href in paper.links %}
+                    <li>
+                        <a href="{{href.url}}">{{href.name}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
         {% if page.projects != nil %}
         <div class="projects">
             <h3>Projects</h3>
@@ -43,18 +70,6 @@ title: Person Template
                 {% for project in page.projects %}
                 <li>
                     <a href="{{project.url}}">{{project.name}}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        {% endif %}
-        {% if page.publications != nil %}
-        <div class="publications">
-            <h3>Papers</h3>
-            <ul>
-                {% for paper in page.publications %}
-                <li>
-                    <a href="{{paper.url}}">{{paper.name}}</a>
                 </li>
                 {% endfor %}
             </ul>
