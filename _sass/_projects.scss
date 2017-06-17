@@ -6,7 +6,7 @@
     li {
         list-style: none;
         text-align: center;
-        
+        padding: 10px;        
         p {
             margin-top: 0;
         }
@@ -14,18 +14,16 @@
     img {
         width: 200px;
         height: 200px;
+        object-fit: cover;
     }
     h2 {
         margin: 5px;
     }
+    h6 {
+        text-align: center;
+    }
     a {
         text-decoration: none;
-    }
-    a:visited {
-        color: $color-text-dark;
-    }
-    p {
-        text-align: center;
     }
     .mediaflex {
         justify-content: center;
