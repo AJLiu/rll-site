@@ -11,7 +11,7 @@ permalink: /projects/index.html
         {% assign sorted = site.projects | sort:"date" | reverse %}
         {% for project in sorted %}
         <li>           
-            <a href="{{project.url}}">
+            <a href="{{project.url | replace: '/index.html', ''}}">
                 {% if project.picture %}
                 <img src="{{project.picture}}"/>
                 {% else %}
