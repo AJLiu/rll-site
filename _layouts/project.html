@@ -1,13 +1,13 @@
 ---
 title: Project Template
-layout: default
-permalink: /project/index.html
 ---
 
 <html>
     {% include head.html%}
 
     <body>
+        {% include nav.html %}
+        {% include header.html %}
         <div class="content projects">
             <h1>{{page.name}}</h1>
             {% if page.members %}
@@ -15,10 +15,10 @@ permalink: /project/index.html
             {% endif %}
             <ul class="mediaflex">
                 <li class="media">
-                    <img src="{{page.picture}}" width="560" height="315"/>  
+                    <img class="projectmedia" src="{{page.picture}}" width="560" height="315"/>  
                 </li>
                 <li class="media">
-                    <iframe width="200" height="200" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>   
+                    <iframe class="projectmedia" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>   
                 </li>
             </ul>
             {% if page.summary %}
