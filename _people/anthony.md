@@ -15,7 +15,7 @@ publications:
 projects:
     - name: Car Project
       url: /projects/car
-type: Undergraduate
+type: Undergraduate Student
 papers:
     - test2
     - test1

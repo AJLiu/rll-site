@@ -3,6 +3,10 @@
     top: 20px; 
     right: 50px;
     z-index: 100;
+    @include phone {
+        right: 0;
+        top: 0;
+    }
 
     ul {
         margin: 0;
@@ -14,10 +18,14 @@
         list-style: none;
         padding: 5px 10px;
         background-color: $color-background-dark;
+        @include phone {
+            padding: 5px 5px;
+        }
     }
 
     a {
         text-decoration: none;
         color: $color-text-light;
+
     }
 }

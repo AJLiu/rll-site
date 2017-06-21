@@ -3,21 +3,74 @@ title: People - Robot Learning Lab
 layout: default
 permalink: /people/index.html
 ---
-<div class='people'>
-    <p>The Robot Learning Lab is home to a diverse and passionate community of undergraduate students, graduate students, and professors.</p>
-    <ul>
-        {% for person in site.people %}
-        <li>
-            <a href="{{person.url | replace: '/index.html', ''}}">
-                {% if person.picture != nil %}
-                <img src="{{person.picture}}" alt="{{person.name}}">
-                {% else %}
-                <img src="/assets/people/placeholder.png" alt="{{person.name}}">
-                {% endif %}
-            <h2>{{person.name}}</h2>
-            <p>{{person.type}}</p>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
+
+<div class="content">
+    <h1>{{page.title}}</h1>
+    <div class='showcase'>
+        <p>The Robot Learning Lab is home to a diverse and passionate community of undergraduate students, graduate students, and professors.</p>
+        {% assign faculty = (site.people | where: "type", "Faculty") %}
+        {% assign phd = (site.people | where: "type", "PhD Student") %}
+        {% assign masters = (site.people | where: "type", "Masters Student") %}
+        {% assign undergrads = (site.people | where: "type", "Undergraduate Student") %}
+        <ul>
+            {% for person in faculty %}
+            <li>
+                <a href="{{person.url | replace: '/index.html', ''}}">
+                    {% if person.picture != nil %}
+                    <img src="{{person.picture}}" alt="{{person.name}}">
+                    {% else %}
+                    <img src="/assets/people/placeholder.png" alt="{{person.name}}">
+                    {% endif %}
+                <h2>{{person.name}}</h2>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for person in phd %}
+            <li>
+                <a href="{{person.url | replace: '/index.html', ''}}">
+                    {% if person.picture != nil %}
+                    <img src="{{person.picture}}" alt="{{person.name}}">
+                    {% else %}
+                    <img src="/assets/people/placeholder.png" alt="{{person.name}}">
+                    {% endif %}
+                <h2>{{person.name}}</h2>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for person in masters %}
+            <li>
+                <a href="{{person.url | replace: '/index.html', ''}}">
+                    {% if person.picture != nil %}
+                    <img src="{{person.picture}}" alt="{{person.name}}">
+                    {% else %}
+                    <img src="/assets/people/placeholder.png" alt="{{person.name}}">
+                    {% endif %}
+                <h2>{{person.name}}</h2>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for person in undergrads %}
+            <li>
+                <a href="{{person.url | replace: '/index.html', ''}}">
+                    {% if person.picture != nil %}
+                    <img src="{{person.picture}}" alt="{{person.name}}">
+                    {% else %}
+                    <img src="/assets/people/placeholder.png" alt="{{person.name}}">
+                    {% endif %}
+                <h2>{{person.name}}</h2>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>

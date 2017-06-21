@@ -9,21 +9,48 @@ title: Project Template
         {% include nav.html %}
         {% include header.html %}
         <div class="content projects">
-            <h1>{{page.name}}</h1>
-            {% if page.members %}
-            <h6>Lab members on project: {{page.members}}</h6>
+            {% if page.year=="Current" %}
+            <h1>{{page.title}} - Ongoing</h1>
+            {% else %}
+            <h1>{{page.title}} - {{page.term}} {{page.year}}</h1>
             {% endif %}
-            <ul class="mediaflex">
-                <li class="media">
-                    <img class="projectmedia" src="{{page.picture}}" width="560" height="315"/>  
-                </li>
-                <li class="media">
-                    <iframe class="projectmedia" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>   
-                </li>
-            </ul>
-            {% if page.summary %}
-            <p>{{page.summary}}</p> 
-            {% endif %}
+
+            <p class="contributors">Lab members on project: <br>
+            {% for member in page.members %}
+            {{member}}
+            {% endfor %}
+            </p>
+
+            {% if page.video %}
+            <iframe width="560" height="349" class="banner" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>
+            {% elsif page.image %}
+            <img class="banner" src="{{page.picture}}" alt="{{page.title}}"/>
+            {% else %}
+            <img class="banner" src="/assets/people/placeholder.png" alt="{{page.title}}"/>
+            {% endif %}  
+
+            <div class="description">
+                <p>{{page.summary}}</p>
+
+                {% if page.links %}
+                <div class="links">
+                    <h2>Learn More:</h2>
+                    <ul>
+                        {% for link in page.links %}
+                        <li>
+                            {% if link.type=="github"%}
+                            <a href="{{link.url}}"><i class="fa fa-github" aria-hidden="true"></i> {{link.text}}</a>
+                            {% elsif link.type=="photo" %}
+                            <a href="{{link.url}}"><i class="fa fa-picture-o" aria-hidden="true"></i> {{link.text}}</a>
+                            {% else %}
+                            <a href="{{link.url}}"><i class="fa fa-globe" aria-hidden="true"></i> {{link.text}}</a>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
         </div>
 
         {% include footer.html %}

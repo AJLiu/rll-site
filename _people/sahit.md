@@ -7,5 +7,5 @@ github: https://github.com/chsahit
 personal_site:  https://chsahit.github.io
 email: schintalapudi@gatech.edu
 layout: person
-type: Undergraduate
+type: Undergraduate Student
 ---

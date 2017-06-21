@@ -1,38 +1,50 @@
-.projects {    
-    ul {
-        padding: 0;
-        display: flex;
+.projects {
+    h1 {
+        margin-bottom: 0;
     }
+
+    .contributors {
+        font-size: .9em;
+        margin-top: 5px;
+    }
+
+    .banner {
+        margin: auto;
+        display: block;   
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
     li {
         list-style: none;
-        text-align: center;
-        padding: 10px;        
-        p {
-            margin-top: 0;
+    }
+
+    .description {
+        width: 80%;
+        margin: auto;
+        padding-right: 200px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .links {
+        position: absolute;
+        right:0;
+        top: 0;
+    }
+
+    @include phone {
+        .links {
+            position: relative;
         }
-    }
-    img {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-    }
-    h2 {
-        margin: 5px;
-    }
-    h6 {
-        text-align: center;
-    }
-    a {
-        text-decoration: none;
-    }
-    .mediaflex {
-        justify-content: center;
-    }
-    .media {
-        display: list-item;
-    }
-    .projectmedia {
-        width: 400px;
-        height: 400px;
+        .description {
+            padding-right: 0;
+        }
     }
 }

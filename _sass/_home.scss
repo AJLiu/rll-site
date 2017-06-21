@@ -1,7 +1,33 @@
+.hero {
+    position: relative;
+    background-image: url("/assets/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+
+    @include desktop {
+        height: 300px;
+    }
+
+    h1 {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        color: white;
+        
+        @include phone {
+            font-size: 1.3em;
+        }
+    }
+}
+
 .home {
-    width: 100%;
-    img {
-        width: 100%;
-        object-fit: cover;
+    .content {
+        min-height: 0;
+    }
+    
+    p {
+        margin-bottom: 0;
     }
 }

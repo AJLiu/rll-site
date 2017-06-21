@@ -3,20 +3,27 @@
 @import "consts";
 @import "viewport";
 
+div {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    box-sizing: border-box;
     font-size: 1.2em;
-    min-height: 100vh;
     padding-top: $header-height;
+    position: relative;
 }
 
 .content {
     padding-top: 15px;
+    position: relative;
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
-    margin-bottom: $footer-height;
+    padding-bottom: 120px;
+    h1 {
+        margin-bottom: 0;
+    }
 }
 
 .clearfix::after { 
@@ -30,6 +37,7 @@ body {
 @import "typography";
 @import "header";
 @import "nav";
+@import "showcase";
 @import "footer";
 @import "people";
 @import "projects";
