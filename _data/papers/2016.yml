@@ -1,28 +1,13 @@
-- title: 'Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction'
-  authors: Wen Sun, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, J. Andrew Bagnell
+- title: 'Gaussian Process Motion Planning'
+  authors: M. Mukadam, X. Yan, & B. Boots
   links:
-    - url: https://arxiv.org/abs/1703.01030
-      name: arXiv
-    - url: https://github.com/ajliu/rll-site
-      name: github
-  bibtex: /publications/deeplyaggrevated.bibtex
-  in: Proceedings of the 34th International Conference on Machine Learning (ICML-2017)
-  ref: test1
+    - url: https://www.youtube.com/watch?v=BqiBX73Ww88
+  in:  	Proceedings of the 2016 IEEE Conference on Robotics and Automation (ICRA-2016)
 
-- title: 'Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction'
-  authors: Wen Sun, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, J. Andrew Bagnell
+- title: 'Motion Planning as Probabilistic Inference using Gaussian Processes and Factor Graphs'
+  authors: J. Dong, M. Mukadam, F. Dellaert, & B. Boots
   links:
-    - url: https://arxiv.org/abs/1703.01030
-      name: arXiv
-  bibtex: /publications/deeplyaggrevated.bibtex
-  in: Proceedings of the 34th International Conference on Machine Learning (ICML-2017)
-  ref: test2
+    - url: video - https://www.youtube.com/watch?v=mVA8qhGf7Socode
+    - url: https://github.com/gtrll/gpmp2'
+  in: Proceedings of Robotics - Science and Systems XII (RSS-2016)
 
-- title: 'Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction'
-  authors: Wen Sun, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, J. Andrew Bagnell
-  links:
-    - url: https://arxiv.org/abs/1703.01030
-      name: arXiv
-  bibtex: /publications/deeplyaggrevated.bibtex
-  in: Proceedings of the 34th International Conference on Machine Learning (ICML-2017)
-  ref: test3
