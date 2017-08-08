@@ -4,6 +4,12 @@
     - url: https://www.youtube.com/watch?v=BqiBX73Ww88
   in:  	Proceedings of the 2016 IEEE Conference on Robotics and Automation (ICRA-2016)
 
+- title: 'Incremental Variational Sparse Gaussian Process Regression'
+  authors: C. Cheng, and B. Boots
+  links:
+    - url: https://papers.nips.cc/paper/6473-incremental-variational-sparse-gaussian-process-regression
+  in: Advances in Neural Information Processing Systems
+
 - title: 'Motion Planning as Probabilistic Inference using Gaussian Processes and Factor Graphs'
   authors: J. Dong, M. Mukadam, F. Dellaert, & B. Boots
   links:

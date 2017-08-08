@@ -42,9 +42,22 @@
   authors: Y. Pan, X. Yan, E. Theodorou and B. Boots
   in: Proceedings of the 2017 International Conference on Machine Learning (ICML)
 
+- title: 'Sampling Beats Fixed Estimate Predictors for Cloning Stochastic Behavior in Multiagent Systems'
+  authors: Brian Hrolenok, Byron Boots, and Tucker Hybinette Balch
+  in: AAAI
+
 - title: 'Simultaneous Trajectory Estimation and Planning via Probabilistic Inference'
   authors: M. Mukadam, J. Dong, F. Dellaert, & B. Boots
   links:
     - url: video - https://www.youtube.com/watch?v=lyayNKV1eAQcode
     - url: https://github.com/gtrll/piper
   in:  	Proceedings of Robotics - Science and Systems XIII (RSS-2017)
+
+- title: 'Skill Generalization via Inference-based Planning'
+  authors: M. A. Rana, M. Mukadam, S. R. Ahmadzadeh, S. Chernova & B. Boots
+  in:  	RSS Workshop on Data-Driven Robotic Manipulation
+
+- title: 'STEAP: Towards Online Estimation and Replanning'
+  authors:  	M. Mukadam, J. Dong,  F. Dellaert, & B. Boots
+  in: RSS Workshop on POMDPs in Robotics
+
