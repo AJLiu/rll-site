@@ -1,8 +1,12 @@
 - title: 'Learning Executable Models of Multiagent Behavior from Live Animal Observation'
   authors: Brian Hrolenok and Tucker Balch
+  bibtex: /publications/LearningExecutable
   in: Workshop on Machine Learning for System Identification @ ICML 2013
+  ref: LearningExecutable
 
 - title: 'Learning Schooling Behavior from Observation'
   authors: Brian Hrolenok and Tucker Balch
+  bibtex: /publications/LearningSchooling
   in: ECAL
+  ref: LearningSchooling
 
