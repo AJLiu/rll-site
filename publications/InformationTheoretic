@@ -1,0 +1,6 @@
+@inproceedings{Williams-ICRA-17,
+   Author = "Grady Williams and Nolan Wagener and Brian Goldfain and Paul Drews and James Rehg and Byron Boots and Evangelos Theodorou",
+   booktitle = {Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA)},
+   Title = "Information Theoretic {MPC}{ for Model-Based Reinforcement Learning.",
+   year = {2017}
+}

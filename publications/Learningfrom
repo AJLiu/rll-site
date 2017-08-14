@@ -1,0 +1,6 @@
+@inproceedings{Dai-AISTATS-17,
+   Author = "Bo Dai and Niao He and Yunpeng Pan and Byron Boots and Le Song",
+   booktitle = {Proceedings of the International Conference on Artificial Intelligence and Statistics (AISTATS)},
+   Title = "Learning from Conditional Distributions via Dual Kernel Embeddings.",
+   year = {2017}
+}

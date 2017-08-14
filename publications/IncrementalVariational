@@ -1,0 +1,7 @@
+@inproceedings{cheng2016incremental,
+  title={Incremental Variational Sparse Gaussian Process Regression},
+  author={Cheng, Ching-An and Boots, Byron},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={4410--4418},
+  year={2016}
+}

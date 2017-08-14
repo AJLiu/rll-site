@@ -1,0 +1,22 @@
+- title: 'Incremental Sparse GP Regression for Continuous-time Trajectory Estimation & Mapping'
+  bibtex: /publications/IncrementalSparse
+  authors: X. Yan, V. Indelman, & B. Boots
+  in: ISRR
+  ref: IncrementalSparse
+
+- title: 'Large-Scale Gaussian Process Regression via Doubly Stochastic Gradient Descent'
+  authors: X. Yan, B. Xie, L. Song, & B. Boots
+  bibtex: /publications/IncrementalSparse
+  in: ICML Workshop
+  ref: Large-ScaleGaussian
+
+- title: 'Scalable Reinforcement Learning via Trajectory Optimization and Approximate Gaussian Process Regression'
+  authors: Y. Pan, X. Yan, E. Theodorou, & B. Boots
+  links:
+    - url: http://www.cc.gatech.edu/~bboots3/files/scalableRL.pdf
+      name: gatech
+  bibtex: /publications/ScalableReinforcement
+  in: NIPS Workshop
+  ref: ScalableReinforcement
+
+

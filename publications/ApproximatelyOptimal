@@ -1,0 +1,8 @@
+@article{Mukadam17arxiv,
+  author    = {Mustafa Mukadam and Ching-An Cheng and Xinyan Yan and Byron Boots.},
+  title     = {Approximately Optimal Continuous-Time Motion Planning and Control via Probabilistic Inference},
+  journal   = {CoRR},
+  volume    = {abs/1702.07335},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1702.07335}
+}

@@ -1,0 +1,6 @@
+@inproceedings{Mukadam-RSS-17,
+   Author = "Mustafa Mukadam and Jing Dong and Frank Dellaert and Byron Boots",
+  booktitle = {Proceedings of Robotics: Science and Systems (RSS)},
+   Title = "Simultaneous Trajectory Estimation and Planning via Probabilistic Inference.",
+   year = {2017}
+}
