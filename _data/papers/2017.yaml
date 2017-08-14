@@ -20,7 +20,7 @@
   authors: E. Huang, A. Bhatia, B. Boots, & M. Mason
   links:
     - url: http://www.cc.gatech.edu/~bboots3/files/Huang_pulling.pdf
-    - name: gatech
+      name: gatech
   bibtex: /publications/ExactBounds
   in: Proceedings of Robotics - Science and Systems XIII (RSS-2017)
   ref: ExactBounds
