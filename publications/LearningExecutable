@@ -1,0 +1,6 @@
+inproceedings{hrolenok2013learning,
+  title={Learning executable models of multiagent behavior from live animal observation},
+  author={Hrolenok, Brian and Balch, Tucker},
+  booktitle={ICML 2013 Workshop on Machine Learning For System Identification},
+  year={2013}
+}

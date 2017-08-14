@@ -1,0 +1,7 @@
+@inproceedings{hrolenok2017sampling,
+  title={Sampling Beats Fixed Estimate Predictors for Cloning Stochastic Behavior in Multiagent Systems.},
+  author={Hrolenok, Brian and Boots, Byron and Balch, Tucker Hybinette},
+  booktitle={AAAI},
+  pages={2022--2028},
+  year={2017}
+}

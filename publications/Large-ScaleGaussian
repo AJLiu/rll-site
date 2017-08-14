@@ -1,0 +1,6 @@
+@article{YanICMLWS15,
+  author = "Xinyan Yan and Bo Xie and Le Song and Byron Boots",
+  title = "Large-Scale Gaussian Process Regression via Doubly Stochastic Gradient Descent",
+  journal = "The ICML Workshop on Large-Scale Kernel Learning",
+  year = "2015"
+}

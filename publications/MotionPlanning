@@ -1,0 +1,6 @@
+@inproceedings{Huang-ICRA-17,
+   Author = "Eric Huang and Mustafa Mukadam and Zhen Liu and Byron Boots",
+   booktitle = {Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA)},
+   Title = "Motion Planning with Graph-Based Trajectories and {G}aussian Process Inference.",
+   year = {2017}
+}
