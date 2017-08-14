@@ -2,8 +2,9 @@
   authors: M. Mukadam, C. Cheng, X. Yan, & B. Boots
   links:
     - url: https://www.youtube.com/watch?v=8rQcg1O-6aU
+      name: youtube
   in: Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA-2017) 
-
+    
 - title: 'Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction'
   authors: Wen Sun, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, J. Andrew Bagnell
   links:
@@ -19,23 +20,28 @@
   authors: E. Huang, A. Bhatia, B. Boots, & M. Mason
   links:
     - url: http://www.cc.gatech.edu/~bboots3/files/Huang_pulling.pdf
+    - name: gatech
   in: Proceedings of Robotics - Science and Systems XIII (RSS-2017)
 - title: 'Information Theoretic MPC for Model-Based Reinforcement Learning'
   authors: G. Williams, N. Wagener, B. Goldfain, P. Drews, J. Rehg, B. Boots, & E. Theodorou.
   links:
     - url: http://www.cc.gatech.edu/~bboots3/files/InformationTheoreticMPC.pdf
+      name: gatech
     - url:  https://www.youtube.com/watch?v=f2at-cqaJMM
+      name: youtube
   in: Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA-2017)
 
 - title: 'Learning from Conditional Distributions via Dual Kernel Embeddings'
   authors: B. Dai, N. He, Y. Pan, B. Boots, & L. Song.
   links:
     - url: http://www.cc.gatech.edu/~bboots3/files/dual_kernel_embedding.pdf
+      name: gatech
   in: Proceedings of the 20th International Conference on Artificial Intelligence and Statistics (AISTATS-2017)
 - title: 'Motion Planning with Graph-Based Trajectories and Gaussian Process Inference'
   authors:  E. Huang, M. Mukadam, Z. Liu, & B. Boots
   links:
     - url: https://www.youtube.com/watch?v=BTLNtZTMNnA
+      name: youtube
   in: Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA-2017) 
 
 - title: 'Prediction under Uncertainty in Sparse Spectrum Gaussian Processes with Applications to Filtering and Control'
@@ -49,7 +55,8 @@
 - title: 'Simultaneous Trajectory Estimation and Planning via Probabilistic Inference'
   authors: M. Mukadam, J. Dong, F. Dellaert, & B. Boots
   links:
-    - url: video - https://www.youtube.com/watch?v=lyayNKV1eAQcode
+    - url: https://www.youtube.com/watch?v=lyayNKV1eAQcode
+      name: youtube 
     - url: https://github.com/gtrll/piper
   in:  	Proceedings of Robotics - Science and Systems XIII (RSS-2017)
 

@@ -9,7 +9,8 @@
 - title: 'Scalable Reinforcement Learning via Trajectory Optimization and Approximate Gaussian Process Regression'
   authors: Y. Pan, X. Yan, E. Theodorou, & B. Boots
   links:
-    - url: paper - http://www.cc.gatech.edu/~bboots3/files/scalableRL.pdf
+    - url: http://www.cc.gatech.edu/~bboots3/files/scalableRL.pdf
+      name: gatech
   in: NIPS Workshop
 
 
