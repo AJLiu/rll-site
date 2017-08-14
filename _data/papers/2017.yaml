@@ -12,8 +12,6 @@
   links:
     - url: https://arxiv.org/abs/1703.01030
       name: arXiv
-    - url: https://github.com/ajliu/rll-site
-      name: github
   bibtex: /publications/deeplyaggrevated.bibtex
   in: Proceedings of the 34th International Conference on Machine Learning (ICML-2017)
   ref: DeeplyAggravated
