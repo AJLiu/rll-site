@@ -1,0 +1,6 @@
+@inproceedings{Huang-RSS-17,
+   Author = "Eric Huang and Ankit Bhatia and Byron Boots and Matthew T. Mason",
+  booktitle = {Proceedings of Robotics: Science and Systems (RSS)},
+   Title = "Exact Bounds on the Contact-Driven Motion of a Sliding Object, With Applications to Robotic Pulling.",
+   year = {2017}
+}

@@ -1,0 +1,6 @@
+@inproceedings{Mukadam-ICRA-16,
+   Author = "Mustafa Mukadam and Xinyan Yan and Byron Boots",
+   booktitle = {Proceedings of the 2016 IEEE Conference on Robotics and Automation (ICRA)},
+   Title = "{G}aussian Process Motion Planning.",
+   year = {2016}
+}

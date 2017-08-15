@@ -1,0 +1,12 @@
+- title: 'Assessing Learned Models of Fish Schooling Behavior'
+  authors: Brian Hrolenok and Tucker Balch
+  bibtex: /publications/AssessingLearning
+  in: AAMAS
+  ref: AssessingLearning
+
+- title: 'Inferring Social Structure of Animal Groups From Tracking Data'
+  authors: Brian Hrolenok, Hanuma Teja Maddali, Michael Novitzky, Tucker Balch, and Kim Wallen
+  bibtex: /publications/InferringSocial
+  in: ALIFE 14
+  ref: InferringSocial
+
