@@ -52,7 +52,7 @@
       name: youtube
   bibtex: /publications/MotionPlanning
   in: Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA-2017) 
-  ref: MotionPlanning
+  ref: MotionPlanningwith
 
 - title: 'Prediction under Uncertainty in Sparse Spectrum Gaussian Processes with Applications to Filtering and Control'
   authors: Y. Pan, X. Yan, E. Theodorou and B. Boots

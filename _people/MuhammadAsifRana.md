@@ -8,4 +8,6 @@ personal_site:
 email: asif.rana@gatech.edu
 layout: person
 type: PhD Student
+papers:
+    - SkillGeneralization
 ---

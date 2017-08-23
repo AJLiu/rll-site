@@ -8,4 +8,8 @@ personal_site:
 email: cacheng@gatech.edu
 layout: person
 type: PhD Student
+papers:
+    - IncrementalVariational
+    - ApproximatelyOptimal
+    - DeepAutoRally
 ---

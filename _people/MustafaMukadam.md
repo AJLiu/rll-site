@@ -8,4 +8,12 @@ personal_site: http://www.mustafamukadam.com/
 email: mmukadam3@gatech.edu
 layout: person
 type: PhD Student
+papers:
+    - SimultaneousTrajectory
+    - ApproximatelyOptimal
+    - MotionPlanningwith
+    - MotionPlanningas
+    - GaussianProcess
+    - Steap
+    - SkillGeneralization
 ---

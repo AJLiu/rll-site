@@ -8,4 +8,7 @@ personal_site: itszhen.com
 email: liuzhen1994@gatech.edu
 layout: person
 type: Masters Student
+papers:
+    - MotionPlanningwith
+    - MultiRobot
 ---
