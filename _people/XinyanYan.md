@@ -8,4 +8,7 @@ personal_site:
 email: voidpointer@gatech.edu
 layout: person
 type: PhD Student
+projects:
+    - name: Autorally
+      url: /projects/autorally
 ---

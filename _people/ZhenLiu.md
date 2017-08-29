@@ -11,4 +11,7 @@ type: Masters Student
 papers:
     - MotionPlanningwith
     - MultiRobot
+projects:
+    - name: Leveraging Geometry for Deep Neural Networks
+      url: /projects/leveraginggeometry
 ---

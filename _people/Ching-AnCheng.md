@@ -12,4 +12,9 @@ papers:
     - IncrementalVariational
     - ApproximatelyOptimal
     - DeepAutoRally
+projects:
+    - name: Large-Scale Gaussian Process Learning
+      url: /projects/largegaussian
+    - name: Autorally
+      url: /projects/autorally
 ---

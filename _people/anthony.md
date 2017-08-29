@@ -14,9 +14,6 @@ publications:
       url: /publications/trajectory
 projects:
     - name: Car Project
-      url: /projects/car
+      url: /projects/autorally
 type: Undergraduate Student
-papers:
-    - test2
-    - test1
 ---

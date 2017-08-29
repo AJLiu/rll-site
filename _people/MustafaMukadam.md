@@ -16,4 +16,7 @@ papers:
     - GaussianProcess
     - Steap
     - SkillGeneralization
+projects:
+    - name: Demonstration-Guided Probabilistic Inference
+      url: /projects/demonstration-guided
 ---

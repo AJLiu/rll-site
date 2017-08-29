@@ -10,4 +10,7 @@ layout: person
 type: PhD Student
 papers:
     - SkillGeneralization
+projects: 
+    - name: Demonstration-Guided Probabilistic Inference
+      url: /projects/demonstration-guided
 ---
