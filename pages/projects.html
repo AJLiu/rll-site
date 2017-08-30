@@ -17,11 +17,11 @@ permalink: /projects/index.html
             {% for project in sorted %}
             {% if project.year=="Current"%}
             <li>           
-                <a href="{{project.url | replace: '/index.html', ''}}">
+                <a href="{{project.url | replace: '/index.html', '' | prepend: site.baseurl}}">
                     {% if project.picture %}
-                    <img src="{{project.picture}}"/>
+                    <img src="{{project.picture | prepend: site.baseurl}}"/>
                     {% else %}
-                    <img src="/assets/people/placeholder.png"/>
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}"/>
                     {% endif %}
                     <h3>{{project.title}}</h3>
                     <p>{{project.subtitle}}</p>
@@ -36,11 +36,11 @@ permalink: /projects/index.html
             {% for project in sorted %}
             {% unless project.year=="Current"%}
             <li>           
-                <a href="{{project.url | replace: '/index.html', ''}}">
+                <a href="{{project.url | replace: '/index.html', '' | prepend: site.baseurl}}">
                     {% if project.picture %}
-                    <img src="{{project.picture}}"/>
+                    <img src="{{project.picture | prepend: site.baseurl}}"/>
                     {% else %}
-                    <img src="/assets/people/placeholder.png"/>
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}"/>
                     {% endif %}
                     <h3>{{project.title}}</h3>
                     <p>{{project.subtitle}}</p>
