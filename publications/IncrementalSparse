@@ -1,0 +1,6 @@
+@article{YanRSSWS15,
+  author = "Xinyan Yan and Vadim Indelman and Byron Boots",
+  title = "Incremental Sparse {GP} Regression for Continuous-time Trajectory Estimation \& Mapping",
+  journal = "The Problem of Mobile Sensors: Setting future goals and indicators of progress for SLAM",
+  year = "2015"
+}

@@ -1,0 +1,91 @@
+- title: 'Approximately Optimal Continuous-Time Motion Planning and Control via Probabilistic Inference'
+  authors: M. Mukadam, C. Cheng, X. Yan, & B. Boots
+  links:
+    - url: https://www.youtube.com/watch?v=8rQcg1O-6aU
+      name: youtube
+  bibtex: /publications/ApproximatelyOptimal
+  in: Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA-2017) 
+  ref: ApproximatelyOptimal
+    
+- title: 'Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction'
+  authors: Wen Sun, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, J. Andrew Bagnell
+  links:
+    - url: https://arxiv.org/abs/1703.01030
+      name: arXiv
+  bibtex: /publications/deeplyaggrevated.bibtex
+  in: Proceedings of the 34th International Conference on Machine Learning (ICML-2017)
+  ref: DeeplyAggravated
+
+- title: 'Exact Bounds on the Contact-Driven Motion of a Sliding Object, With Applications to Robotic Pulling'
+  authors: E. Huang, A. Bhatia, B. Boots, & M. Mason
+  links:
+    - url: http://www.cc.gatech.edu/~bboots3/files/Huang_pulling.pdf
+      name: gatech
+  bibtex: /publications/ExactBounds
+  in: Proceedings of Robotics - Science and Systems XIII (RSS-2017)
+  ref: ExactBounds
+
+- title: 'Information Theoretic MPC for Model-Based Reinforcement Learning'
+  authors: G. Williams, N. Wagener, B. Goldfain, P. Drews, J. Rehg, B. Boots, & E. Theodorou.
+  links:
+    - url: http://www.cc.gatech.edu/~bboots3/files/InformationTheoreticMPC.pdf
+      name: gatech
+    - url:  https://www.youtube.com/watch?v=f2at-cqaJMM
+      name: youtube
+  bibtex: /publications/InformationTheoretic
+  in: Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA-2017)
+  ref: InformationTheoretic
+
+- title: 'Learning from Conditional Distributions via Dual Kernel Embeddings'
+  authors: B. Dai, N. He, Y. Pan, B. Boots, & L. Song.
+  links:
+    - url: http://www.cc.gatech.edu/~bboots3/files/dual_kernel_embedding.pdf
+      name: gatech
+  bibtex: /publications/Learningfrom
+  in: Proceedings of the 20th International Conference on Artificial Intelligence and Statistics (AISTATS-2017)
+  ref: Learningfrom
+
+- title: 'Motion Planning with Graph-Based Trajectories and Gaussian Process Inference'
+  authors:  E. Huang, M. Mukadam, Z. Liu, & B. Boots
+  links:
+    - url: https://www.youtube.com/watch?v=BTLNtZTMNnA
+      name: youtube
+  bibtex: /publications/MotionPlanning
+  in: Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA-2017) 
+  ref: MotionPlanningwith
+
+- title: 'Prediction under Uncertainty in Sparse Spectrum Gaussian Processes with Applications to Filtering and Control'
+  authors: Y. Pan, X. Yan, E. Theodorou and B. Boots
+  bibtex: /publications/Predictionunder
+  in: Proceedings of the 2017 International Conference on Machine Learning (ICML)
+  ref: Predictionunder
+
+- title: 'Sampling Beats Fixed Estimate Predictors for Cloning Stochastic Behavior in Multiagent Systems'
+  authors: Brian Hrolenok, Byron Boots, and Tucker Hybinette Balch
+  bibtex: /publications/SamplingBeats
+  in: AAAI
+  ref: SamplingBeats
+
+- title: 'Simultaneous Trajectory Estimation and Planning via Probabilistic Inference'
+  authors: M. Mukadam, J. Dong, F. Dellaert, & B. Boots
+  links:
+    - url: https://www.youtube.com/watch?v=lyayNKV1eAQcode
+      name: youtube 
+    - url: https://github.com/gtrll/piper
+      name: github
+  bibtex: /publications/SimulataneousTrajectory
+  in:  	Proceedings of Robotics - Science and Systems XIII (RSS-2017)
+  ref: SimultaneousTrajectory
+
+- title: 'Skill Generalization via Inference-based Planning'
+  authors: M. A. Rana, M. Mukadam, S. R. Ahmadzadeh, S. Chernova & B. Boots
+  bibtex: /publications/SkillGeneralization
+  in:  	RSS Workshop on Data-Driven Robotic Manipulation
+  ref: SkillGeneralization
+
+- title: 'STEAP: Towards Online Estimation and Replanning'
+  authors: M. Mukadam, J. Dong,  F. Dellaert, & B. Boots
+  bibtex: /publications/Steap:Towards
+  in: RSS Workshop on POMDPs in Robotics
+  ref: Steap
+

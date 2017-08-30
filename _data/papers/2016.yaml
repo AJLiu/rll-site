@@ -1,0 +1,29 @@
+- title: 'Gaussian Process Motion Planning'
+  authors: M. Mukadam, X. Yan, & B. Boots
+  links:
+    - url: https://www.youtube.com/watch?v=BqiBX73Ww88
+      name: youtube
+  bibtex: /publications/GaussianProcess
+  in: Proceedings of the 2016 IEEE Conference on Robotics and Automation (ICRA-2016)
+  ref: GaussianProcess 
+
+- title: 'Incremental Variational Sparse Gaussian Process Regression'
+  authors: C. Cheng, and B. Boots
+  links:
+    - url: https://papers.nips.cc/paper/6473-incremental-variational-sparse-gaussian-process-regression
+      name: NIPS
+  bibtex: /publications/IncrementalVariational
+  in: Advances in Neural Information Processing Systems
+  ref: IncrementalVariational
+
+- title: 'Motion Planning as Probabilistic Inference using Gaussian Processes and Factor Graphs'
+  authors: J. Dong, M. Mukadam, F. Dellaert, & B. Boots
+  links:
+    - url: https://www.youtube.com/watch?v=mVA8qhGf7Socode
+      name: youtube
+    - url: https://github.com/gtrll/gpmp2'
+      name: github
+  bibtex: /publications/MotionPlanning
+  in: Proceedings of Robotics - Science and Systems XII (RSS-2016)
+  ref: MotionPlanningas
+

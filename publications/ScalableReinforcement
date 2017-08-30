@@ -1,0 +1,6 @@
+@article{PanNIPSWS15,
+  author = "Yunpeng Pan and Xinyan Yan and Evangelos Theodorou and Byron Boots",
+  title = "Scalable Reinforcement Learning via Trajectory Optimization and Approximate {G}aussian Process Regression",
+  journal = "NIPS Workshop on Advances in Approximate Bayesian Inference",
+  year = "2015"
+}

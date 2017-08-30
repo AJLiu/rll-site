@@ -1,0 +1,6 @@
+@inproceedings{Pan-ICML-17,
+   Author = "Yunpeng Pan and Xinyan Yan and Evangelos Theodorou and Byron Boots",
+  booktitle = {Proceedings of the 2017 International Conference on Machine Learning (ICML)},
+   Title = "Prediction under Uncertainty in Sparse Spectrum Gaussian Processes with Applications to Filtering and Control",
+   year = {2017}
+}

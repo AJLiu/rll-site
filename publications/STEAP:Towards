@@ -1,0 +1,6 @@
+@article{mukadamRSSworkshop2017,
+  author = "Mustafa Mukadam and Jing Dong and Frank Dellaert and Byron Boots",
+  title = "{STEAP}: {T}owards Online Estimation and Replanning",
+  journal = "RSS Workshop on POMDPs in Robotics",
+  year = "2017"
+}

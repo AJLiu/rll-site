@@ -1,0 +1,6 @@
+@article{ChengNIPSWS16,
+  author = "Yunpeng Pan and Xinyan Yan and Evangelos Theodorou and Byron Boots",
+  title = "Solving the Linear {B}ellman Equation via Kernel Embeddings and Stochastic Gradient Descent",
+  journal = "NIPS Workshop on Adaptive and Scalable Nonparametric Methods in Machine Learning",
+  year = "2016"
+}
