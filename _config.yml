@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Robot Learning Lab
 email: your-email@domain.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ajliu.github.io/rll-site" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/rll-site" # the subpath of your site, e.g. /blog
+url: "http://anthonyliu.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 timezone: America/New_York
 
