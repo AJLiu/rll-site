@@ -4,8 +4,8 @@ year: 2017
 term: Fall
 members:
     - Zhen Liu
-video: https://youtu.be/WWbTLwChIoQ
-picture: http://i.imgur.com/NnPCoQT.png
+video: https://youtube.com/embed/WWbTLwChIoQ
+picture:
 summary: This project aims to explore methods to incorporate geometric properties of natural images into the design of deep neural nets architectures. Applications include but not limited to depth prediction and novel-view synthesis of RGB images.
 layout: project
 ---

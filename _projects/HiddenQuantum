@@ -5,6 +5,6 @@ term: Fall
 members:
     - Siddarth Srinivasan
 summary: Building a new class of graphical models based on Hidden Markov Models, by adapting mathematical formalism for reasoning about uncertainty from quantum mechanics.
-picture: https://i.imgur.com/a/EDMgl.png
+picture:
 layout: project
 ---

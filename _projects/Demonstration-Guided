@@ -5,8 +5,8 @@ term: Fall
 members:
     - Muhammad Asif Rana
     - Mustafa Mukadam
-video: https://youtu.be/WWbTLwChIoQ
-picture: http://i.imgur.com/p0bZNyU.jpg
+video: https://www.youtube.com/embed/WWbTLwChIoQ
+picture: /assets/projects/probinference.jpg
 summary: We seek to learn a trajectory prior from human demonstrations and then carry out efficient inference for generalizable skill reproduction.
 layout: project
 ---
