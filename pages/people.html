@@ -27,8 +27,6 @@ permalink: /people/index.html
                 </a>
             </li>
             {% endfor %}
-        </ul>
-        <ul>
             {% for person in phd %}
             <li>
                 <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
@@ -42,8 +40,6 @@ permalink: /people/index.html
                 </a>
             </li>
             {% endfor %}
-        </ul>
-        <ul>
             {% for person in masters %}
             <li>
                 <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
@@ -57,8 +53,6 @@ permalink: /people/index.html
                 </a>
             </li>
             {% endfor %}
-        </ul>
-        <ul>
             {% for person in friends %}
             <li>
                 <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
@@ -72,8 +66,6 @@ permalink: /people/index.html
                 </a>
             </li>
             {% endfor %}
-        </ul>
-        <ul>
             {% for person in undergrads %}
             <li>
                 <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
