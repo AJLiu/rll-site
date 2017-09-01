@@ -7,7 +7,7 @@ github: https://github.com/mrana6
 personal_site: 
 email: asif.rana@gatech.edu
 layout: person
-type: PhD Student
+type: Collaborator
 papers:
     - SkillGeneralization
 projects: 

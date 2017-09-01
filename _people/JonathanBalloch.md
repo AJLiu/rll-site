@@ -7,5 +7,5 @@ github: https://github.com/balloch
 personal_site: http://www.cc.gatech.edu/~jballoch6/
 email: balloch@gatech.edu
 layout: person
-type: PhD Student
+type: Collaborator
 ---

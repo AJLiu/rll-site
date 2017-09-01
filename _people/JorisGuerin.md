@@ -7,5 +7,5 @@ github:
 personal_site: 
 email: joris.guerin.110@gmail.com
 layout: person
-type: PhD Student
+type: Collaborator
 ---

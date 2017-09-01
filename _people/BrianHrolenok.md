@@ -7,7 +7,7 @@ github:
 personal_site: http://www.cc.gatech.edu/~bhroleno/
 email: bhrolenok3@gatech.edu
 layout: person
-type: PhD Student
+type: Collaborator
 papers:
     - SamplingBeats
     - InferringSocial
