@@ -89,3 +89,13 @@
   in: RSS Workshop on POMDPs in Robotics
   ref: Steap
 
+- title: '4D Crop Monitoring: Spatio-Temporal Reconstruction for Agriculture'
+  authors: J. Dong, J. Burnham, B. Boots, G. Rains, & F. Dellaert.
+  links:
+      - url: https://www.cc.gatech.edu/~bboots3/files/4DCropMonitoring.pdf
+        name: gatech
+      - url: https://www.youtube.com/watch?v=BgLlLlsKWzI
+        name: Youtube
+  bibtex: /publications/4DCrop
+  in: Proceedings of the 2017 IEEE Conference on Robotics and Automation
+  ref: 4DCrop

@@ -1,3 +1,12 @@
+- title: 'Functional Gradient Motion Planning in Reproducing Kernal Hilbert Spaces'
+  authors: Z. Marinho, B. Boots, A. Dragan, A. Byravan, G. J. Gordon, & S. Srinivasa.
+  links:
+    - url: https://www.cc.gatech.edu/~bboots3/files/RKHSMP.pdf
+      name: PDF
+  bibtex: /publications/FunctionalGradient
+  in: Proceedings of Robotics: Science and Systems XII 
+  ref: FunctionalGradient 
+
 - title: 'Gaussian Process Motion Planning'
   authors: M. Mukadam, X. Yan, & B. Boots
   links:
@@ -16,6 +25,15 @@
   in: Advances in Neural Information Processing Systems
   ref: IncrementalVariational
 
+- title: 'Learning to Smooth with Bidirectional Predictive State Inference Machines.'
+  authors: W. Sun, R. Capobianco, G. J. Gordon, J. A. Bagnell, & B. Boots.
+  links:
+      - url: https://www.cc.gatech.edu/~bboots3/files/SMACH.pdf
+        name: PDF
+  bibtex: /publications/Learningto
+  in: Proceedings of the 32nd Conference on Uncertainty in Artificial Intelligence
+  ref: Learningto
+
 - title: 'Motion Planning as Probabilistic Inference using Gaussian Processes and Factor Graphs'
   authors: J. Dong, M. Mukadam, F. Dellaert, & B. Boots
   links:
@@ -27,3 +45,11 @@
   in: Proceedings of Robotics - Science and Systems XII (RSS-2016)
   ref: MotionPlanningas
 
+- title: Simulation-Based Design of Dynamic Controllers for Humanoid Balancing
+  authors: J. Tan, Z. Xie, B. Boots, & K. Liu.
+  links:
+    - url: https://www.cc.gatech.edu/~bboots3/files/Simulation_based_design.pdf
+      name: PDF
+  bibtex: /publications/SimulationBased
+  in: Proceedings of the 2016 International Conference on Intelligent Robots and Systems
+  ref: SimulationBased
