@@ -4,7 +4,7 @@
     - url: https://www.cc.gatech.edu/~bboots3/files/RKHSMP.pdf
       name: PDF
   bibtex: /publications/FunctionalGradient
-  in: Proceedings of Robotics: Science and Systems XII 
+  in: Proceedings of Robotics - Science and Systems XII 
   ref: FunctionalGradient 
 
 - title: 'Gaussian Process Motion Planning'
