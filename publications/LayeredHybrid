@@ -1,0 +1,6 @@
+@article{Byravan14,
+  author = "Arunkumar Byravan and Matthew Montfort and Brian Ziebart and Byron Boots and Dieter Fox",
+  title = "Layered Hybrid Inverse Optimal Control for Learning Robot Manipulation from Demonstration",
+  journal = "NIPS Workshop on Autonomously Learning Robots",
+  year = "2014"
+}

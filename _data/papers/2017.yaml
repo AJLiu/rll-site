@@ -6,7 +6,17 @@
   bibtex: /publications/ApproximatelyOptimal
   in: Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA-2017) 
   ref: ApproximatelyOptimal
-    
+   
+- title: 'Deep AutoRally: End-to-End Imitation Learning for Agile Autonomous Driving'
+  authors: Y. Pan, C. Cheng, X. Yan, E. Theodorou, & B. Boots
+  in: The RSS Workshop on Learning From Demonstrations in High-Dimensional Feature Spaces
+  ref: DeepAutoRally
+
+- title: 'Deep Forward and Inverse Perceptual Models for Tracking and Prediction'
+  authors: A. S. Lambert, A. Shaban, & B. Boots
+  in: The RSS Workshop on New Frontiers for Deep Learning in Robotics
+  ref: 'DeepForward'
+
 - title: 'Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction'
   authors: Wen Sun, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, J. Andrew Bagnell
   links:
