@@ -1,0 +1,6 @@
+@inproceedings{Tan-IROS-16,
+   Author = "Jie Tan and Zhaoming Xie and Byron Boots and C. Karen Liu",
+   booktitle = {Proceedings of The IEEE Conference on Intelligent Robots and Systems (IROS)},
+   Title = "Simulation-Based Design of Dynamic Controllers for Humanoid Balancing",
+   year = {2016}
+}

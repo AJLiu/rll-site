@@ -1,0 +1,6 @@
+@inproceedings{Shaban-UAI-15,
+   Author = "Amirreza Shaban and  Mehrdad Farajtabar and Bo Xie and Le Song and Byron Boots",
+   booktitle = {Proceedings of The International Conference on Uncertainty in Artificial Intelligence (UAI)},
+   Title = "Learning Latent Variable Models by Improving Spectral Solutions with Exterior Point Methods",
+   year = {2015}
+}

@@ -25,6 +25,23 @@
   in: Advances in Neural Information Processing Systems
   ref: IncrementalVariational
 
+- title: 'Inference Machines for Nonparametric Filter Learning'
+  authors: A. Venkatraman, W. Sun, M. Hebert, B. Boots, & J. A. Bagnell
+  links:
+    - url: https://www.cc.gatech.edu/~bboots3/files/PSIM_Hints.pdf
+      name: PDF
+  bibtex: /publications/InferenceMachines
+  in: Proceedings of the 25th International Joint Conference on Artificial Intelligence
+  ref: InferenceMachines
+      
+- title: 'Learning to Filter With Predictive State Inference Machines'
+  authors: W. Sun, A. Venkatraman, B. Boots, & J. A. Bagnell
+  links:
+    - url: https://www.cc.gatech.edu/~bboots3/files/PSIM.pdf
+      name: PDF
+  bibtex: /publications/LearningtoFilter
+  ref: LearningtoFilter
+
 - title: 'Learning to Smooth with Bidirectional Predictive State Inference Machines.'
   authors: W. Sun, R. Capobianco, G. J. Gordon, J. A. Bagnell, & B. Boots.
   links:
@@ -45,6 +62,16 @@
   in: Proceedings of Robotics - Science and Systems XII (RSS-2016)
   ref: MotionPlanningas
 
+
+- title: Online Instrumental Variable Regression with Applications to Online Linear System Identification
+  authors: A. Venkatraman, W. Sun, M. Hebert, J. A. Bagnell, & B. Boots
+  links:
+    - url: https://www.cc.gatech.edu/~bboots3/files/OIVR_AAAI.pdf
+      name: PDF
+  bibtex: /publications/OnlineInstrumental
+  in: Proceedings of the 30th Conference on Artificial Intelligence
+  ref: OnlineInstrumental
+    
 - title: Simulation-Based Design of Dynamic Controllers for Humanoid Balancing
   authors: J. Tan, Z. Xie, B. Boots, & K. Liu.
   links:
@@ -53,3 +80,13 @@
   bibtex: /publications/SimulationBased
   in: Proceedings of the 2016 International Conference on Intelligent Robots and Systems
   ref: SimulationBased
+
+- title: The Nonparametric Kernel Bayes Smoother
+  authors: Y. Nishiyama, A. Afsharinejad, S. Naruse, B. Boots, & L. Song
+  links: 
+    - url: https://www.cc.gatech.edu/~bboots3/files/kbs.pdf
+      name: PDF
+  bibtex: /publications/TheNonparametric
+  in: Proceedings of the 19th International Conference on Artificial Intelligence and Statistics
+  ref: Proceedingsof
+

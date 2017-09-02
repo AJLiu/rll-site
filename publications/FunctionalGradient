@@ -1,0 +1,6 @@
+@inproceedings{Marinho-RSS-16,
+   Author = "Zita Marinho and Anca Dragan and Arunkumar Byravan and Byron Boots and Geoffrey J. Gordon and Siddhartha Srinivasa",
+   booktitle = {Proceedings of Robotics: Science and Systems (RSS)},
+   Title = "Functional Gradient Motion Planning in Reproducing Kernel Hilbert Spaces",
+   year = {2016}
+}

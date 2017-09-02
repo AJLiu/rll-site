@@ -1,0 +1,6 @@
+@inproceedings{Sun-ICML-16,
+   Author = "Wen Sun and Arun Venkatraman and Byron Boots and J. Andrew Bagnell",
+   booktitle = {Proceedings of the 2016 International Conference on Machine Learning (ICML)},
+   Title = "Learning to Filter with Predictive State Inference Machines",
+   year = {2016}
+}

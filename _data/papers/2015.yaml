@@ -10,6 +10,23 @@
   in: ICML Workshop
   ref: Large-ScaleGaussian
 
+- title: 'Learning Latent Variable Models by Improving Spectral Solutions with Exterior Point Methods'
+  authors: A. Shaban, M. Farajtabar, B. Xie, L. Song, & B. Boots.
+  links: 
+    - url: https://www.cc.gatech.edu/~bboots3/files/SpectralExteriorPoint-UAI15.pdf
+      name: PDF
+  bibtex: /publications/LearningLatent
+  in: Proceedings of the 31st Conference on Uncertainty in Artificial Intelligence
+  ref: LearningLatent
+
+- title: 'Graph-based Inverse Optimal Control for Robot Manipulation'
+  authors: A. Byravan, M. Monfort, B. Ziebart, B. Boots, & D. Fox
+  links:
+    - url: https://www.cc.gatech.edu/~bboots3/files/psr-manipulation-icra-2014.pdf
+      name: PDF
+  bibtex: /publications/Graph-basedInverse
+  ref: Graph-basedInverse
+
 - title: 'Scalable Reinforcement Learning via Trajectory Optimization and Approximate Gaussian Process Regression'
   authors: Y. Pan, X. Yan, E. Theodorou, & B. Boots
   links:

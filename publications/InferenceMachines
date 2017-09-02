@@ -1,0 +1,6 @@
+@inproceedings{Venkatraman-IJCAI-16,
+   Author = "Arun Venkatraman and Wen Sun and Martial Hebert and Byron Boots and J. Andrew Bagnell",
+   booktitle = {Proceedings of the 2016 International Joint Conference on Artificial Intelligence (IJCAI)},
+   Title = "Inference Machines for Nonparametric Filter Learning.",
+   year = {2016}
+}
