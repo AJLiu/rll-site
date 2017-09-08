@@ -30,7 +30,7 @@
   authors: E. Huang, A. Bhatia, B. Boots, & M. Mason
   links:
     - url: http://www.cc.gatech.edu/~bboots3/files/Huang_pulling.pdf
-      name: gatech
+      name: PDF
   bibtex: /publications/ExactBounds
   in: Proceedings of Robotics - Science and Systems XIII (RSS-2017)
   ref: ExactBounds
@@ -39,7 +39,7 @@
   authors: G. Williams, N. Wagener, B. Goldfain, P. Drews, J. Rehg, B. Boots, & E. Theodorou.
   links:
     - url: http://www.cc.gatech.edu/~bboots3/files/InformationTheoreticMPC.pdf
-      name: gatech
+      name: PDF
     - url:  https://www.youtube.com/watch?v=f2at-cqaJMM
       name: youtube
   bibtex: /publications/InformationTheoretic
@@ -50,7 +50,7 @@
   authors: B. Dai, N. He, Y. Pan, B. Boots, & L. Song.
   links:
     - url: http://www.cc.gatech.edu/~bboots3/files/dual_kernel_embedding.pdf
-      name: gatech
+      name: PDF
   bibtex: /publications/Learningfrom
   in: Proceedings of the 20th International Conference on Artificial Intelligence and Statistics (AISTATS-2017)
   ref: Learningfrom
@@ -103,7 +103,7 @@
   authors: J. Dong, J. Burnham, B. Boots, G. Rains, & F. Dellaert.
   links:
       - url: https://www.cc.gatech.edu/~bboots3/files/4DCropMonitoring.pdf
-        name: gatech
+        name: PDF
       - url: https://www.youtube.com/watch?v=BgLlLlsKWzI
         name: Youtube
   bibtex: /publications/4DCrop

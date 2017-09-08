@@ -31,7 +31,7 @@
   authors: Y. Pan, X. Yan, E. Theodorou, & B. Boots
   links:
     - url: http://www.cc.gatech.edu/~bboots3/files/scalableRL.pdf
-      name: gatech
+      name: PDF
   bibtex: /publications/ScalableReinforcement
   in: NIPS Workshop
   ref: ScalableReinforcement
