@@ -1,6 +1,6 @@
 ---
 title: Large-Scale Gaussian Process Learning
-year: 2017
+year: Current
 term: Fall
 members:
     - Byron Boots,

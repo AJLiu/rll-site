@@ -1,6 +1,6 @@
 ---
 title: Autorally 
-year: 2017
+year: Current
 term: Fall
 members:
     - Byron Boots,
