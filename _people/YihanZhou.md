@@ -7,5 +7,5 @@ github:
 personal_site: 
 email: yzhou376@gatech.edu
 layout: person
-type: Undergraduate Student
+type: Undergraduate Collaborator
 ---

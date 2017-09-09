@@ -7,5 +7,5 @@ github: https://github.com/gabrielnan
 personal_site: 
 email: gabriel.nakajima.an@gmail.com
 layout: person
-type: Undergraduate Student
+type: Undergraduate Collaborator
 ---

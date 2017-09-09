@@ -11,60 +11,68 @@ permalink: /people/index.html
         {% assign faculty = (site.people | where: "type", "Faculty") %}
         {% assign phd = (site.people | where: "type", "PhD Student") %}
         {% assign masters = (site.people | where: "type", "Masters Student") %}
-        {% assign undergrads = (site.people | where: "type", "Undergraduate Student") %}
+        {% assign undergrads = (site.people | where: "type", "Undergraduate Collaborator") %}
+        {% assign friends = (site.people | where: "type", "Collaborator") %}
         <ul>
             {% for person in faculty %}
             <li>
-                <a href="{{person.url | replace: '/index.html', ''}}">
+                <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
                     {% if person.picture != nil %}
-                    <img src="{{person.picture}}" alt="{{person.name}}">
+                    <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
                     {% else %}
-                    <img src="/assets/people/placeholder.png" alt="{{person.name}}">
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
                     {% endif %}
                 <h2>{{person.name}}</h2>
                 <p>{{person.type}}</p>
                 </a>
             </li>
             {% endfor %}
-        </ul>
-        <ul>
             {% for person in phd %}
             <li>
-                <a href="{{person.url | replace: '/index.html', ''}}">
+                <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
                     {% if person.picture != nil %}
-                    <img src="{{person.picture}}" alt="{{person.name}}">
+                    <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
                     {% else %}
-                    <img src="/assets/people/placeholder.png" alt="{{person.name}}">
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
                     {% endif %}
                 <h2>{{person.name}}</h2>
                 <p>{{person.type}}</p>
                 </a>
             </li>
             {% endfor %}
-        </ul>
-        <ul>
             {% for person in masters %}
             <li>
-                <a href="{{person.url | replace: '/index.html', ''}}">
+                <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
                     {% if person.picture != nil %}
-                    <img src="{{person.picture}}" alt="{{person.name}}">
+                    <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
                     {% else %}
-                    <img src="/assets/people/placeholder.png" alt="{{person.name}}">
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
                     {% endif %}
                 <h2>{{person.name}}</h2>
                 <p>{{person.type}}</p>
                 </a>
             </li>
             {% endfor %}
-        </ul>
-        <ul>
+            {% for person in friends %}
+            <li>
+                <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
+                    {% if person.picture != nil %}
+                    <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% else %}
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% endif %}
+                <h2>{{person.name}}</h2>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
             {% for person in undergrads %}
             <li>
-                <a href="{{person.url | replace: '/index.html', ''}}">
+                <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
                     {% if person.picture != nil %}
-                    <img src="{{person.picture}}" alt="{{person.name}}">
+                    <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
                     {% else %}
-                    <img src="/assets/people/placeholder.png" alt="{{person.name}}">
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
                     {% endif %}
                 <h2>{{person.name}}</h2>
                 <p>{{person.type}}</p>

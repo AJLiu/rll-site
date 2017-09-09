@@ -7,5 +7,5 @@ github:
 personal_site: http://niveditaarora.com/
 email: nivedita.arora@gatech.edu
 layout: person
-type: PhD Student
+type: Collaborator
 ---

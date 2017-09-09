@@ -12,9 +12,9 @@ title: Person Template
         <h1>About</h1>
         <div class="picture">
             {% if page.picture != nil %}
-            <img src="{{page.picture}}" alt="{{page.name}}">
+            <img src="{{page.picture | prepend: site.baseurl}}" alt="{{page.name}}">
             {% else %}
-            <img src="/assets/people/placeholder.png" alt="{{page.name}}">
+            <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{page.name}}">
             {% endif %}
             <h2>{{page.name}}</h2>
             {% if page.github != nil and page.personal_site != nil %}
@@ -48,7 +48,7 @@ title: Person Template
                 <h3>{{paper.title}} | {{year[0]}}</h3>
                 <p>{{paper.in}}</p>
                 <ul class="links">
-                    <li><a href="{{paper.bibtex}}">bibtex</a></li>
+                    <li><a href="{{paper.bibtex | prepend: site.baseurl }}">bibtex</a></li>
                     <li>|</li>
                     {% for href in paper.links %}
                     <li>
@@ -69,7 +69,7 @@ title: Person Template
             <ul>
                 {% for project in page.projects %}
                 <li>
-                    <a href="{{project.url}}">{{project.name}}</a>
+                    <a href="{{project.url | prepend: site.baseurl}}">{{project.name}}</a>
                 </li>
                 {% endfor %}
             </ul>

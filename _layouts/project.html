@@ -24,9 +24,9 @@ title: Project Template
             {% if page.video %}
             <iframe width="560" height="349" class="banner" src="{{page.video}}" frameborder="0" allowfullscreen></iframe>
             {% elsif page.image %}
-            <img class="banner" src="{{page.picture}}" alt="{{page.title}}"/>
+            <img class="banner" src="{{page.picture | prepend: site.baseurl}}" alt="{{page.title}}"/>
             {% else %}
-            <img class="banner" src="/assets/people/placeholder.png" alt="{{page.title}}"/>
+            <img class="banner" src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{page.title}}"/>
             {% endif %}  
 
             <div class="description">

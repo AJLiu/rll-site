@@ -7,7 +7,7 @@ github:
 personal_site: http://www.cc.gatech.edu/~ssrinivasan81/
 email: sidsrini@gatech.edu
 layout: person
-type: PhD Student
+type: Collaborator
 projects:
     - name: Hidden Quantum Markov Models
       url: /projects/hiddenquantum

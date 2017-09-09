@@ -6,7 +6,7 @@
     {% else %} {{ site.title }}
     {% endif %}
   </title>
-  <link rel="stylesheet" href="{{"/style.css" | absolute_path}}">
+  <link rel="stylesheet" href="{{"/style.css" | prepend: site.baseurl}}">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:300,400" rel="stylesheet">
   <script src="https://use.fontawesome.com/8055e2403a.js"></script>
   <link rel="icon" type="image/x-icon" href="{{ "/assets/favicon.ico" | prepend: site.baseurl }}" />
