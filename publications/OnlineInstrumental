@@ -1,0 +1,6 @@
+@inproceedings{Venkatraman-AAAI-16,
+   Author = "Arun Venkatraman and Wen Sun and Martial Hebert and J. Andrew Bagnell and Byron Boots",
+   booktitle = {Proceedings of the Conference on Artificial Intelligence (AAAI)},
+   Title = "Online Instrumental Variable Regression with Applications to Online Linear System Identification",
+   year = {2016}
+}

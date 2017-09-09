@@ -1,0 +1,6 @@
+@inproceedings{Dong-ICRA-17,
+   Author = "Jing Dong and John Burnhan and Byron Boots and Glen Rains and Frank Dellaert",
+   booktitle = {Proceedings of the 2017 IEEE Conference on Robotics and Automation (ICRA)},
+   Title = "4D Crop Monitoring: Spatio-Temporal Reconstruction for Agriculture.",
+   year = {2017}
+}

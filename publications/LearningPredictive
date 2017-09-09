@@ -1,0 +1,6 @@
+@inproceedings{Boots-Depthcam-Manipulator,
+   Author = "Byron Boots and Arunkumar Byravan and  Dieter Fox",
+   booktitle = {Proceedings of The International Conference in Robotics and Automation (ICRA)},
+   Title = "Learning Predictive Models of a Depth Camera \& Manipulator from Raw Execution Traces",
+   year = {2014}
+}

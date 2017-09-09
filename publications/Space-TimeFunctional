@@ -1,0 +1,6 @@
+@inproceedings{Byravan-Space-Time,
+   Author = "Arunkumar Byravan and Byron Boots and Siddhartha Srinivasa and Dieter Fox",
+   booktitle = {Proceedings of The International Conference in Robotics and Automation (ICRA)},
+   Title = "Space-Time Functional Gradient Optimization for Motion Planning",
+   year = {2014}
+}

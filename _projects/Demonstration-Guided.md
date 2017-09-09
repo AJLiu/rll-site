@@ -1,6 +1,6 @@
 ---
 title: Demonstration-Guided Probabilistic Inference for Skill Generalization
-year: 2017
+year: Current
 term: Fall
 members:
     - Muhammad Asif Rana

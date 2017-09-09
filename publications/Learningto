@@ -1,0 +1,6 @@
+@inproceedings{Sun-UAI-16,
+   Author = "Wen Sun and Roberto Capobianco and Geoffrey J. Gordon and J. Andrew Bagnell and Byron Boots",
+   booktitle = {Proceedings of The International Conference on Uncertainty in Artificial Intelligence (UAI)},
+   Title = "Learning to Smooth with Bidirectional Predictive State Inference Machines",
+   year = {2016}
+}

@@ -1,0 +1,6 @@
+@inproceedings{Byravan-IJCAI-15,
+   Author = "Arunkumar Byravan and Matthew Montfort and Brian Ziebart and Byron Boots and Dieter Fox",
+   booktitle = {Proceedings of The International Joint Conference on Artificial Intelligence  (IJCAI)},
+   Title = "Layered Hybrid Inverse Optimal Control for Learning Robot Manipulation from Demonstration",
+   year = {2015}
+}
