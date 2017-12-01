@@ -10,5 +10,5 @@ layout: person
 projects:
     - name: Car Project
       url: /projects/autorally
-type: Undergraduate Student
+type: Undergraduate Collaborator
 ---
