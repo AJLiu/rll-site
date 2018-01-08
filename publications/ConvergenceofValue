@@ -1,0 +1,8 @@
+@inproceedings{Cheng-AISTATS-18,
+   Author = "Ching-An Cheng and Byron Boots.",
+  booktitle = {Proceedings of the 21st International Conference on Artificial Intelligence and Statistics},
+   Title = "Convergence of Value Aggregagtion for Imitation Learning",
+   year = {2018}
+}
+
+

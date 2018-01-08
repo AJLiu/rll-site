@@ -1,0 +1,17 @@
+- title: 'Convergence of Value Aggregation for Imitation Learning'
+  authors: C. Cheng & B. Boots
+  links:
+    - url: https://www.cc.gatech.edu/~bboots3/files/nips17Convergence.pdf
+      name: PDF
+  bibtex: /publications/ConvergenceofValue
+  in: Proceedings of the 21st International Conference on Artificial Intelligence and Statistics (AISTATS-2018)
+  ref: ConvergenceofValue
+
+- title: Learning Hidden Quantum Markov Models
+  authors: S. Srinivasan, G. J. Gordon, & B. Boots
+  links:
+    - url: https://arxiv.org/abs/1710.09016
+      name: arXiv
+  bibtex: /publications/LearningHiddenQuantum
+  in: Proceedings of the 21st International Conference on Artificial Intelligence and Statistics (AISTATS-2018)
+  ref: LearningHiddenQuantum

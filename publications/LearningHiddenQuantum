@@ -1,0 +1,6 @@
+@inproceedings{Srinivasan-AISTATS-18,
+   Author = "Siddarth Srinivasan and Geoffrey J. Gordon and Byron Boots.",
+  booktitle = {Proceedings of the 21st International Conference on Artificial Intelligence and Statistics},
+   Title = "Learning Hidden Quantum Markov Models",
+   year = {2018}
+}
