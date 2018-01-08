@@ -1,0 +1,6 @@
+@inproceedings{Rana-CoRL-17,
+   Author = "M. Asif Rana and Mustafa Mukadam and S. Reza Ahmadzadeh and Sonia Chernova and Byron Boots.",
+  booktitle = {Proceedings of the 2017 Conference on Robot Learning (CoRL)},
+   Title = "Towards Robust Skill Generalization: Unifying Learning from Demonstration and Motion Planning",
+   year = {2017}
+}

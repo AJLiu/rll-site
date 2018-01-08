@@ -1,0 +1,6 @@
+@inproceedings{Venkatraman-NIPS-17,
+   Author = "Arun Venkatraman and Nicholas Rhinehart and Wen Sun and Lerrel Pinto and Byron Boots and Kris Kitani and James Andrew Bagnell.",
+  booktitle = {Proceedings of Advances in Neural Information Processing Systems (NIPS)},
+   Title = "Predictive State Decoders: Encoding the Future into Recurrent Networks",
+   year = {2017}
+}

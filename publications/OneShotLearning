@@ -1,0 +1,6 @@
+@inproceedings{Shaban-BMVC-17,
+   Author = "Amirreza Shaban and Shray Bansal and Zhen Liu and Irfan Essa and Byron Boots.",
+  booktitle = {Proceedings of the 28th British Machine Vision Conference (BMVC)},
+   Title = "One-Shot Learning for Semantic Segmentation.",
+   year = {2017}
+}

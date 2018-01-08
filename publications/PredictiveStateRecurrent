@@ -1,0 +1,6 @@
+@inproceedings{Downey-NIPS-17,
+   Author = "Carlton Downey and Ahmed Hefny and Boyue Li and Byron Boots and  Geoffrey J. Gordon.",
+  booktitle = {Proceedings of Advances in Neural Information Processing Systems (NIPS)},
+   Title = "Predictive State Recurrent Neural Networks",
+   year = {2017}
+}

@@ -1,3 +1,48 @@
+- title: 'Predictive State Recurrent Neural Networks'
+  authors: C. Downey, A. Hefny, B. Li, B. Boots, & G. J. Gordon
+  links:
+    - url: https://arxiv.org/abs/1705.09353
+      name: arXiv
+  bibtex: /publications/PredictiveStateRecurrent
+  in: Proceedings of Advances in Neural Information Processing Systems 31 (NIPS-2017)
+  ref:  PredictiveStateRecurrent
+
+- title: 'Predictive State Decoders: Encoding the Future into Recurrent Networks'
+  authors: A. Venkatraman, N. Rhinehart, W. Sun, L. Pinto, B. Boots, K. Kitani, & J. A. Bagnell
+  links: 
+    - url: https://arxiv.org/abs/1709.08520
+      name: arXiv
+  bibtex: /publications/PredictiveStateDecoders
+  in: Proceedings of Advances in Neural Information Processing Systems 31 (NIPS-2017)
+  ref: PredictiveStateDecoders
+
+- title: 'Variational Inference for Gaussian Process Models with Linear Complexity'
+  authors: C. Cheng & B. Boots
+  bibtex: /publications/VariationalInference
+  links:
+    - url: https://arxiv.org/abs/1711.10127
+      name: arXiv
+  in: Proceedings of Advances in Neural Information Processing Systems 31 (NIPS-2017)
+  ref: VariationalInference
+
+- title: 'Towards Robust Skill Generalization: Unifying Learning from Demonstration and Motion Planning.'
+  authors: M. A. Rana, M. Mukadam, S. R. Ahmadzadeh, S. Chernova, & B. Boots
+  links:
+    - url: https://www.cc.gatech.edu/~bboots3/files/Robust_Skill_Generalization.pdf
+      name: PDF
+  bibtex: /publications/TowardsRobust
+  in: Proceedings of the 1st Annual Conference on Robot Learning (CoRL-2017)
+  ref: TowardsRobust
+
+- title: 'One-Shot Learning for Semantic Segmentation'
+  authors:  A. Shaban, S. Bansal, Z. Liu, I. Essa, & B. Boots
+  links:
+    - url: https://arxiv.org/abs/1709.03410
+      name: arXiv
+  bibtex: /publications/OneShotLearning
+  in: Proceedings of the 28th British Machine Vision Conference (BMVC-2017)
+  ref: OneShotLearning
+
 - title: 'Approximately Optimal Continuous-Time Motion Planning and Control via Probabilistic Inference'
   authors: M. Mukadam, C. Cheng, X. Yan, & B. Boots
   links:

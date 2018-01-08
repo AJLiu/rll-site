@@ -1,0 +1,6 @@
+@inproceedings{Cheng-NIPS-17,
+   Author = "Ching-An Cheng and Byron Boots.",
+  booktitle = {Proceedings of Advances in Neural Information Processing Systems (NIPS)},
+   Title = "Variational Inference for Gaussian Process Models with Linear Complexity",
+   year = {2017}
+}
