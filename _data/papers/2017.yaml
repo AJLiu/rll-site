@@ -59,6 +59,9 @@
 
 - title: 'Deep Forward and Inverse Perceptual Models for Tracking and Prediction'
   authors: A. S. Lambert, A. Shaban, & B. Boots
+  links:
+    - url: https://www.cc.gatech.edu/~bboots3/files/knnFlow_rss_workshop_2017.pdf
+      name: PDF
   in: The RSS Workshop on New Frontiers for Deep Learning in Robotics
   ref: 'DeepForward'
 

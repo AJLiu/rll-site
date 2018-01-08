@@ -15,7 +15,7 @@ if __name__ == "__main__":
     next(people)
     for person in people:
         markdown_name = ''.join(person[1].split())
-        new_md = open("people/" + markdown_name + ".md", 'w')
+        new_md = open("_people/" + markdown_name + ".md", 'w')
         new_md.write('---' + "\n")
         new_md.write("title: " + person[1] + " - Robot Learning Lab" + "\n")
         new_md.write("name: " + person[1] + "\n")

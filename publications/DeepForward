@@ -1,0 +1,6 @@
+@inproceedings{Lambert-RSS-NFDLR-17,
+   Author = "Alexander Lambert and Amirreza Shaban and Zhen Liu and Byron Boots",
+  booktitle = {The RSS Workshop on New Frontiers for Deep Learning in Robotics},
+   Title = "Deep Forward and Inverse Perceptual Models for Tracking and Prediction",
+   year = {2017}
+}
