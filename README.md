@@ -6,25 +6,8 @@ TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "rll-site"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: rll-site
-```
-
-And then execute:
-
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install rll-site
+    $ bundle exec jekyll serve
 
 ## Usage
 
