@@ -2,7 +2,7 @@
 title: Xinyan Yan - Robot Learning Lab
 name: Xinyan Yan
 bio: Understanding machine learning
-picture: /assets/people/xinyanyan.jpg
+picture: /assets/people/xinyan.jpg
 github: https://github.com/XinyanGT
 personal_site: 
 email: voidpointer@gatech.edu

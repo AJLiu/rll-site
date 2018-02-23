@@ -1,25 +1,130 @@
 ---
-title: Robot Learning Lab
+title: People - Robot Learning Lab
 layout: default
-permalink: /
+permalink: /index.html
 ---
-<div class="home">
-    <div class="hero">
-        <h1>{{page.title}}</h1>
+
+<div class="content">
+    <h1>Robot Learning Lab</h1>
+    <div class='showcase'>
+        <p>The Robot Learning Lab is home to a diverse and passionate community of undergraduate students, graduate students, and professors.</p>
+        {% assign faculty = (site.people | where: "type", "Faculty") %}
+        {% assign phd = (site.people | where: "type", "PhD Student") %}
+        {% assign masters = (site.people | where: "type", "Masters Student") %}
+        {% assign undergrads = (site.people | where: "type", "Undergraduate Collaborator") %}
+        {% assign friends = (site.people | where: "type", "Collaborator") %}
+        <ul>
+            {% for person in faculty %}
+            <li>
+                    {% if person.personal_site != nil%}
+                    <a href="{{person.personal_site}}">
+                    {% else %}
+                    <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
+                    {% endif %}
+                        {% if person.picture != nil %}
+                        <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
+                        {% else %}
+                        <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
+                        {% endif %}
+                <h3>{{person.name}}</h2>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
+            {% for person in phd %}
+            <li>
+                {% if person.personal_site != nil%}
+                <a href="{{person.personal_site}}">
+                {% else %}
+                <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
+                {% endif %}
+                    {% if person.picture != nil %}
+                    <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% else %}
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% endif %}
+                <h3>{{person.name}}</h2>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
+            {% for person in masters %}
+            <li>
+                {% if person.personal_site != nil%}
+                <a href="{{person.personal_site}}">
+                {% else %}
+                <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
+                {% endif %}
+                    {% if person.picture != nil %}
+                    <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% else %}
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% endif %}
+                <h3>{{person.name}}</h2>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
+            {% for person in friends %}
+            <li>
+                {% if person.personal_site != nil%}
+                <a href="{{person.personal_site}}">
+                {% else %}
+                <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
+                {% endif %}
+                    {% if person.picture != nil %}
+                    <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% else %}
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% endif %}
+                <h3>{{person.name}}</h2>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
+            {% for person in undergrads %}
+            <li>
+                {% if person.personal_site != nil%}
+                <a href="{{person.personal_site}}">
+                {% else %}
+                <a href="{{person.url | replace: '/index.html', '' | prepend: site.baseurl}}">
+                {% endif %}
+                    {% if person.picture != nil %}
+                    <img src="{{person.picture | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% else %}
+                    <img src="{{"/assets/people/placeholder.png" | prepend: site.baseurl}}" alt="{{person.name}}">
+                    {% endif %}
+                <h3>{{person.name}}</h3>
+                <p>{{person.type}}</p>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
-
-    <div class="content">
-
-        <p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Third Floor College of Computing Building</p>
-
-        <p>The Georgia Tech Robot Learning Lab(GTRLL) performs fundamental and applied research in machine 
-            learning, artificial intelligence, and robotics with a focus on developing theory and systems 
-            that tightly integrate perception, learning, and control. Our work touches on a range of problems 
-            including computer vision, system identification, forecasting, simultaneous localization and mapping, 
-            imitation learning, motion planning, and optimal control. The algorithms that we develop often use 
-            and extend theory from matrix and tensor algebra, nonparametric statistics, deep neural networks, 
-            non-convex optimization, online learning, and dynamic programming.
-        </p>
-
+</div>
+<div class="content">
+    <div class="papers">
+        {% assign sorted = site.data.papers | sort %}
+        {% for year in (sorted reversed) %}
+        <h2>{{year[0]}}</h2>
+        <ul class='paperlist'>
+            {% for paper in year[1] %}
+            <li class='paper'>
+                <p>{{paper.authors}}</p>
+                <h3>{{paper.title}}</h3>
+                <p>{{paper.in}}</p>
+                <ul class="links">
+                    <li><a href="{{paper.bibtex | prepend: site.baseurl}}">bibtex</a></li>
+                    <li>|</li>
+                    {% for href in paper.links %}
+                    <li>
+                        <a href="{{href.url}}">{{href.name}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
     </div>
 </div>
