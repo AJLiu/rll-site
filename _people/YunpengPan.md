@@ -2,10 +2,10 @@
 title: Yunpeng Pan - Robot Learning Lab
 name: Yunpeng Pan
 bio: PhD student in Robotics
-picture: 
+picture: /assets/people/yungpengpan.png
 github: 
-personal_site: 
+personal_site: http://yunpengpan.weebly.com/
 email: ypan37@gatech.edu
 layout: person
-type: PhD Student
+type: Collaborator
 ---
