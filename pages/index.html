@@ -13,6 +13,7 @@ permalink: /index.html
         {% assign masters = (site.people | where: "type", "Masters Student") %}
         {% assign undergrads = (site.people | where: "type", "Undergraduate Collaborator") %}
         {% assign friends = (site.people | where: "type", "Collaborator") %}
+        <a name="people"></a>
         <ul>
             {% for person in faculty %}
             <li>
@@ -102,6 +103,7 @@ permalink: /index.html
         </ul>
     </div>
 </div>
+<a name="publications"></a>
 <div class="content">
     <div class="papers">
         {% assign sorted = site.data.papers | sort %}
