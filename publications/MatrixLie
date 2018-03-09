@@ -1,0 +1,6 @@
+@inproceedings{Dong-ICRA-18,
+   Author = "Jing Dong and Mustafa Mukadam and Byron Boots and Frank Dellaert",
+   booktitle = {Proceedings of the 2018 IEEE Conference on Robotics and Automation (ICRA)},
+   Title = "Sparse Gaussian Processes on Matrix Lie Groups: A Unified Framework for Optimizing Continuous-Time Trajectories.",
+   year = {2018}
+}

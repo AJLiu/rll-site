@@ -1,3 +1,26 @@
+- title: 'Deep Forward and Inverse Perceptual Models for Tracking and Prediction'
+  authors: A. Lambert, A. Shaban, A. Raj, Z. Liu, & B. Boots
+  links:
+    - url: https://arxiv.org/abs/1710.11311
+      name: arXiv
+  bibtex: /publications/InversePerceptual
+  in: Proceedings of the 2018 IEEE Conference on Robotics and Automation (ICRA-2018) 
+  ref: InversePerceptual
+
+- title: 'Optical Sensing and Control Methods for Soft Pneumatically Actuated Robotic Manipulators'
+  authors: J. Molnar, C. Cheng, L. Tiziani, B. Boots, & F. Hammond III
+  bibtex: /publications/OpticalSensing
+  in: Proceedings of the 2018 IEEE Conference on Robotics and Automation (ICRA-2018)
+
+- title: 'Sparse Gaussian Processes on Matrix Lie Groups: A Unified Framework for Optimizing Continuous-Time Trajectories'
+  authors: J. Dong, M. Mukadam, B. Boots, & F. Dellaert
+  links: 
+    - url: https://www.cc.gatech.edu/~jdong37/files/Dong18icra.pdf
+      name: PDF
+  bibtex: /publications/MatrixLie
+  in: Proceedings of the 2018 IEEE Conference on Robotics and Automation (ICRA-2018)
+  ref: MatrixLie
+
 - title: 'Convergence of Value Aggregation for Imitation Learning'
   authors: C. Cheng & B. Boots
   links:
@@ -7,7 +30,7 @@
   in: Proceedings of the 21st International Conference on Artificial Intelligence and Statistics (AISTATS-2018)
   ref: ConvergenceofValue
 
-- title: Learning Hidden Quantum Markov Models
+- title: 'Learning Hidden Quantum Markov Models'
   authors: S. Srinivasan, G. J. Gordon, & B. Boots
   links:
     - url: https://arxiv.org/abs/1710.09016

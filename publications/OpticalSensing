@@ -1,0 +1,6 @@
+@inproceedings{Molnar-ICRA-18,
+   Author = "Jennifer L. Molnar and Ching-An Cheng and Lucas O. Tiziani and Byron Boots and Frank L. Hammond III",
+   booktitle = {Proceedings of the 2018 IEEE Conference on Robotics and Automation (ICRA)},
+   Title = "Optical Sensing and Control Methods for Soft Pneumatically Actuated Robotic Manipulators.",
+   year = {2018}
+}
