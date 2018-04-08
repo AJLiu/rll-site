@@ -10,6 +10,9 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "3.6.2"
+#If bundle is failing to install jekyll
+#you may have to use a more up-to-date version of jekyll, if so
+#change the jekyll version to 3.7.3
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
