@@ -7,5 +7,5 @@ github: https://github.com/dongjing3309
 personal_site: https://www.cc.gatech.edu/~jdong37/
 email: jdong@gatech.edu
 layout: person
-type: Ph. D student
+type: PhD student
 ---
