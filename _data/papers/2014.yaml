@@ -1,9 +1,3 @@
-- title: 'Assessing Learned Models of Fish Schooling Behavior'
-  authors: Brian Hrolenok and Tucker Balch
-  bibtex: /publications/AssessingLearning
-  in: AAMAS
-  ref: AssessingLearning
-
 - title: 'Data as Demonstrator with Applications to System Identification'
   authors: A. Venkatraman, B. Boots, M. Hebert, & J. A. Bagnell
   bibtex: /publications/Dataas
@@ -12,12 +6,6 @@
       name: PDF 
   in: NIPS Workshop on Autonomously Learning Robots
   ref: Dataas  
-
-- title: 'Inferring Social Structure of Animal Groups From Tracking Data'
-  authors: Brian Hrolenok, Hanuma Teja Maddali, Michael Novitzky, Tucker Balch, and Kim Wallen
-  bibtex: /publications/InferringSocial
-  in: ALIFE 14
-  ref: InferringSocial
 
 - title: 'Layered Hybrid Inverse Optimal Control for Learning Robot Manipulation from Demonstration'
   authors: A. Byravan, M. Montfort, B. Ziebart, B. Boots, & D. Fox

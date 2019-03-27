@@ -5,5 +5,5 @@ bio: I am a Robotics PhD student working with Dr. Magnus Egerstedt and Dr. Byron
 picture: /assets/people/anqili.jpg
 email: anqi.li@gatech.edu
 layout: person
-type: Collaborator
+type: PhD Student
 ---
